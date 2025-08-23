@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+make_index.py – erzeugt eine index.html mit "ansehen" & "download" zu allen Dateien
+(ausgenommen index.html und dieses Script). Optional: Inline-Vorschau für Bilder, PDF, Text.
+
+Beispiele:
+  python3 make_index.py                       # index.html im aktuellen Ordner
+  python3 make_index.py --title "Downloads"
+  python3 make_index.py --recursive --exclude "*.bak" --exclude ".git/*"
+"""
+
+import argparse
+import fnmatch
+import html
+import mimetypes
+import os
+import sys
+from datetime import datetime
+from pathlib import Path
+
+DEFAULT_EXCLUDES = [
+    "index.html",
+    ".git/*",
+    ".git",
+    ".gitattributes",
+    ".gitignore",
+]
+
+TEXT_EXT = {".txt", ".yaml", ".yml", ".csv", ".json", ".md", ".log"}
+IMG_EXT  = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}
+PDF_EXT  = {".pdf"}
+
+CSS = """
+:root { --fg:#111; --muted:#666; --bg:#fafafa; --card:#fff; --br:14px; }
+body { margin:0; font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); }
+.wrap { max-width:980px; margin:32px auto; padding:0 16px; }
+h1 { margin:0 0 8px; }
+p.note { color:var(--muted); margin:0 0 24px; }
+ul.files { list-style:none; padding:0; margin:0 0 28px; }
+ul.files li { background:var(--card); border

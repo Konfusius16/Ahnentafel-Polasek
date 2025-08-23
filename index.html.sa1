@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Familienunterlagen – Downloads</title>
+  <style>
+    :root { --fg:#111; --muted:#666; --bg:#fafafa; --card:#fff; --br:14px; }
+    body { margin:0; font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); }
+    .wrap { max-width:880px; margin:32px auto; padding:0 16px; }
+    h1 { margin:0 0 8px; }
+    p.note { color:var(--muted); margin:0 0 24px; }
+    ul.files { list-style:none; padding:0; margin:0 0 28px; }
+    ul.files li { background:var(--card); border-radius:var(--br); padding:14px 16px; margin:10px 0; display:flex; align-items:center; justify-content:space-between; gap:10px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+    .name { font-weight:600; }
+    .actions a { margin-left:12px; text-decoration:none; }
+    .actions a:first-child { margin-left:0; }
+    .preview { background:var(--card); border-radius:var(--br); padding:16px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+    img.preview-img { width:100%; height:auto; display:block; border-radius:12px; }
+    details { background:var(--card); border-radius:var(--br); padding:10px 12px; margin-top:12px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+    details > summary { cursor:pointer; font-weight:600; }
+    iframe.txt { width:100%; height:60vh; border:0; border-radius:10px; margin-top:10px; background:#fff; }
+    footer { color:var(--muted); font-size:13px; margin-top:28px; text-align:center; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg:#eee; --muted:#aaa; --bg:#0d0f12; --card:#14171c; }
+      a { color:#8ab4ff; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Familienunterlagen</h1>
+    <p class="note">Ansehen im Browser oder direkt herunterladen.</p>
+
+    <ul class="files">
+      <li>
+        <span class="name">HelliTotalK.yaml</span>
+        <span class="actions">
+          <a href="HelliTotalK.yaml" target="_blank" rel="noopener">ansehen</a>
+          <a href="HelliTotalK.yaml" download>download</a>
+        </span>
+      </li>
+      <li>
+        <span class="name">ahnen_HelliTotalK.png</span>
+        <span class="actions">
+          <a href="ahnen_HelliTotalK.png" target="_blank" rel="noopener">ansehen</a>
+          <a href="ahnen_HelliTotalK.png" download>download</a>
+        </span>
+      </li>
+      <li>
+        <span class="name">personen.txt</span>
+        <span class="actions">
+          <a href="personen.txt" target="_blank" rel="noopener">ansehen</a>
+          <a href="personen.txt" download>download</a>
+        </span>
+      </li>
+      <li>
+        <span class="name">kinder.txt</span>
+        <span class="actions">
+          <a href="kinder.txt" target="_blank" rel="noopener">ansehen</a>
+          <a href="kinder.txt" download>download</a>
+        </span>
+      </li>
+    </ul>
+
+    <div class="preview">
+      <h2>Bild-Vorschau</h2>
+      <img class="preview-img" src="ahnen_HelliTotalK.png" alt="Ahnentafel: HelliTotalK" />
+    </div>
+
+    <details>
+      <summary>HelliTotalK.yaml – Vorschau (Text)</summary>
+      <iframe class="txt" src="HelliTotalK.yaml"></iframe>
+    </details>
+
+    <details>
+      <summary>personen.txt – Vorschau</summary>
+      <iframe class="txt" src="personen.txt"></iframe>
+    </details>
+
+    <details>
+      <summary>kinder.txt – Vorschau</summary>
+      <iframe class="txt" src="kinder.txt"></iframe>
+    </details>
+
+    <footer>Bereitgestellt über eine statische Seite (z. B. GitHub Pages). Dateien einfach neben dieser index.html ablegen.</footer>
+  </div>
+</body>
+</html>
