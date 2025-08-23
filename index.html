@@ -3,87 +3,40 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Familienunterlagen – Downloads</title>
+  <title>Familienunterlagen</title>
   <style>
-    :root { --fg:#111; --muted:#666; --bg:#fafafa; --card:#fff; --br:14px; }
-    body { margin:0; font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); }
-    .wrap { max-width:880px; margin:32px auto; padding:0 16px; }
-    h1 { margin:0 0 8px; }
-    p.note { color:var(--muted); margin:0 0 24px; }
-    ul.files { list-style:none; padding:0; margin:0 0 28px; }
-    ul.files li { background:var(--card); border-radius:var(--br); padding:14px 16px; margin:10px 0; display:flex; align-items:center; justify-content:space-between; gap:10px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
-    .name { font-weight:600; }
-    .actions a { margin-left:12px; text-decoration:none; }
-    .actions a:first-child { margin-left:0; }
-    .preview { background:var(--card); border-radius:var(--br); padding:16px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
-    img.preview-img { width:100%; height:auto; display:block; border-radius:12px; }
-    details { background:var(--card); border-radius:var(--br); padding:10px 12px; margin-top:12px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
-    details > summary { cursor:pointer; font-weight:600; }
-    iframe.txt { width:100%; height:60vh; border:0; border-radius:10px; margin-top:10px; background:#fff; }
-    footer { color:var(--muted); font-size:13px; margin-top:28px; text-align:center; }
-    @media (prefers-color-scheme: dark) {
-      :root { --fg:#eee; --muted:#aaa; --bg:#0d0f12; --card:#14171c; }
-      a { color:#8ab4ff; }
-    }
+:root { --fg:#111; --muted:#666; --bg:#fafafa; --card:#fff; --br:14px; }
+body { margin:0; font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); }
+.wrap { max-width:980px; margin:32px auto; padding:0 16px; }
+h1 { margin:0 0 8px; }
+p.note { color:var(--muted); margin:0 0 24px; }
+ul.files { list-style:none; padding:0; margin:0 0 28px; }
+ul.files li { background:var(--card); border-radius:var(--br); padding:14px 16px; margin:10px 0; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+.meta { color:var(--muted); font-size:13px; }
+.name { font-weight:600; }
+.actions a { margin-left:12px; text-decoration:none; }
+.actions a:first-child { margin-left:0; }
+.preview { background:var(--card); border-radius:var(--br); padding:16px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+img.preview-img { max-width:100%; height:auto; display:block; border-radius:12px; }
+details { background:var(--card); border-radius:var(--br); padding:10px 12px; margin-top:12px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
+details > summary { cursor:pointer; font-weight:600; }
+iframe.txt { width:100%; height:60vh; border:0; border-radius:10px; margin-top:10px; background:#fff; }
+object.pdf { width:100%; height:75vh; border:0; border-radius:10px; }
+footer { color:var(--muted); font-size:13px; margin-top:28px; text-align:center; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#eee; --muted:#aaa; --bg:#0d0f12; --card:#14171c; }
+  a { color:#8ab4ff; }
+}
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1>Familienunterlagen</h1>
-    <p class="note">Ansehen im Browser oder direkt herunterladen.</p>
-
+    <p class="note">Ansehen im Browser oder direkt herunterladen. Diese Seite wurde automatisch erzeugt.</p>
     <ul class="files">
-      <li>
-        <span class="name">HelliTotalK.yaml</span>
-        <span class="actions">
-          <a href="HelliTotalK.yaml" target="_blank" rel="noopener">ansehen</a>
-          <a href="HelliTotalK.yaml" download>download</a>
-        </span>
-      </li>
-      <li>
-        <span class="name">ahnen_HelliTotalK.png</span>
-        <span class="actions">
-          <a href="ahnen_HelliTotalK.png" target="_blank" rel="noopener">ansehen</a>
-          <a href="ahnen_HelliTotalK.png" download>download</a>
-        </span>
-      </li>
-      <li>
-        <span class="name">personen.txt</span>
-        <span class="actions">
-          <a href="personen.txt" target="_blank" rel="noopener">ansehen</a>
-          <a href="personen.txt" download>download</a>
-        </span>
-      </li>
-      <li>
-        <span class="name">kinder.txt</span>
-        <span class="actions">
-          <a href="kinder.txt" target="_blank" rel="noopener">ansehen</a>
-          <a href="kinder.txt" download>download</a>
-        </span>
-      </li>
+<li><div><div class="name">ahnen_HelliTotalK.png</div><div class="meta">271.9 KB · geändert: 2025-08-23 12:53</div></div><div class="actions"><a href="./ahnen_HelliTotalK.png">ansehen</a><a href="./ahnen_HelliTotalK.png" download>download</a></div></li><li><div><div class="name">ehen.txt</div><div class="meta">3.9 KB · geändert: 2025-08-23 12:55</div></div><div class="actions"><a href="./ehen.txt">ansehen</a><a href="./ehen.txt" download>download</a></div></li><li><div><div class="name">index.html.sa1</div><div class="meta">3.6 KB · geändert: 2025-08-23 13:56</div></div><div class="actions"><a href="./index.html.sa1">ansehen</a><a href="./index.html.sa1" download>download</a></div></li><li><div><div class="name">kinder.txt</div><div class="meta">5.7 KB · geändert: 2025-08-23 12:55</div></div><div class="actions"><a href="./kinder.txt">ansehen</a><a href="./kinder.txt" download>download</a></div></li><li><div><div class="name">make_index.py~</div><div class="meta">1.3 KB · geändert: 2025-08-23 14:00</div></div><div class="actions"><a href="./make_index.py~">ansehen</a><a href="./make_index.py~" download>download</a></div></li><li><div><div class="name">nix.txt</div><div class="meta">9 B · geändert: 2025-08-23 13:35</div></div><div class="actions"><a href="./nix.txt">ansehen</a><a href="./nix.txt" download>download</a></div></li><li><div><div class="name">personen.txt</div><div class="meta">7.9 KB · geändert: 2025-08-23 12:55</div></div><div class="actions"><a href="./personen.txt">ansehen</a><a href="./personen.txt" download>download</a></div></li>
     </ul>
-
-    <div class="preview">
-      <h2>Bild-Vorschau</h2>
-      <img class="preview-img" src="ahnen_HelliTotalK.png" alt="Ahnentafel: HelliTotalK" />
-    </div>
-
-    <details>
-      <summary>HelliTotalK.yaml – Vorschau (Text)</summary>
-      <iframe class="txt" src="HelliTotalK.yaml"></iframe>
-    </details>
-
-    <details>
-      <summary>personen.txt – Vorschau</summary>
-      <iframe class="txt" src="personen.txt"></iframe>
-    </details>
-
-    <details>
-      <summary>kinder.txt – Vorschau</summary>
-      <iframe class="txt" src="kinder.txt"></iframe>
-    </details>
-
-    <footer>Bereitgestellt über eine statische Seite (z. B. GitHub Pages). Dateien einfach neben dieser index.html ablegen.</footer>
+<div class="preview"><h2>Bild-Vorschau: ahnen_HelliTotalK.png</h2><img class="preview-img" src="./ahnen_HelliTotalK.png" alt="ahnen_HelliTotalK.png" /></div><details><summary>Text-Vorschau: ehen.txt</summary><iframe class="txt" src="./ehen.txt"></iframe></details><details><summary>Text-Vorschau: kinder.txt</summary><iframe class="txt" src="./kinder.txt"></iframe></details><details><summary>Text-Vorschau: nix.txt</summary><iframe class="txt" src="./nix.txt"></iframe></details><details><summary>Text-Vorschau: personen.txt</summary><iframe class="txt" src="./personen.txt"></iframe></details>    <footer>Generiert am 2025-08-23 14:07 · 7 Dateien</footer>
   </div>
 </body>
 </html>
