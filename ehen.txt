@@ -1,0 +1,40 @@
+Nachname_M     Vornamen_M  Geb_M       o-o  Nachname_F     Vornamen_F        Geb_F       Trauung   
+---------------------------------------------------------------------------------------------------
+BURDA          WENZEL                  o-o  RYBAR          DOROTHEA                                
+KRAL           MATHIAS                 o-o  MARIA          MAGDALENA                               
+BOHUSLAWITZKY  MATHIAS                 o-o  PECHA          ANNA                                    
+v. DÖBRÖSSY    JOHANN                  o-o  v. BERTHA      EVA                                     
+v. GÖNDÖCS     FRANZ                   o-o  v. POCZA       ANNA                                    
+CZERNANSZKY    JOSEPHUS                o-o  v. CSEGLADY    ANNA                                    
+KRAL           WENZEL      1786-08-13  o-o  BOHUSLAWITZKY  JOSEFA            1790-03-15            
+v. DÖBRÖSSY    JOHANN      1820-02-09  o-o  v. GÖNDÖCS     ANNA              1820-02-09            
+v. DÖBRÖSSY    PAUL        1824-01-17  o-o  CZERNANSZKY    ANNA              1825-05-03            
+KLUS           FRANZ       1821-06-08  o-o  KRAL           JOSEFA            1825-05-21            
+DÖBRÖSSY       ADALBERT    1850-10-14  o-o  KLUS           ANNA              1852-10-30  1888-02-02
+POLASEK        JOHANN      1881-05-01  o-o  DÖBRÖSSY       ROSA              1887-02-05  1908-10-04
+ADELSBERGER    HERBERT     1913-11-01  o-o  POLASEK        HELENE            1917-03-05  1942-08-29
+ADELSBERGER    HELMUT      1943-06-29  o-o  ADELSBERGER    BRIGITTA          1945-08-04            
+ADELSBERGER    HEIMO       1948-08-16  o-o  PRENDINGER     ELISABETH         1953-06-23  1974-05-05
+ADELSBERGER    HEIMO       1948-08-16  o-o  ADELSBERGER    RENATE            1960-05-22  2020-08-21
+SUCHY          WALTER                  o-o  DÖBRÖSSY       HELENE (HELLA)    1889-04-19            
+DÖBRÖSSY       PAUL        1891-01-01  o-o  WANKA          AMALIA            1885-01-01            
+GEHRINGER      KARL        1910-09-24  o-o  POLASEK        ROSA (ROSI)       1914-08-25            
+GEHRINGER      HORST       1941-01-12  o-o  GEHRINGER      ANNEMARIE         1944-08-27            
+GEHRINGER      ROLF        1944-04-23  o-o  KAMINSKI       MICHAELA          1944-04-10            
+GEHRINGER      RAOUL       1971-08-18  o-o  GEHRINGER      EDITH             1970-02-23            
+POLASEK        RUDOLF      1844-08-01  o-o  POLANSKY       ANNA              1850-02-27  1871-08-30
+POLASEK        FRANZ       1887-01-01  o-o  GEIG           LEOPOLDINE                              
+POLASEK        OTTO        1912-09-14  o-o  WINKLER        GERTRUDE                                
+POLASEK        OTTO        1912-09-14  o-o  POLASEK        INGE              1928-02-11            
+POLASEK        WOLFGANG    1951-06-19  o-o  POLASEK        EDITH             1947-10-26            
+POLASEK        WOLFGANG    1951-06-19  o-o  POLASEK        HANKA             1951-06-10            
+KOCH           IGO         1947-07-29  o-o  POLASEK        CHRISTINE         1952-07-19            
+SCHLOSSER      PAUL        1943-08-19  o-o  POLASEK        ADELE (SISSI)     1954-02-21            
+VOGEL          BURKHARD    1950-01-11  o-o  POLASEK        DORIS             1959-02-03            
+KESSLER        JÜRGEN                  o-o  POLASEK        DORIS             1959-02-03            
+ADELSBERGER    STEPHAN     1982-08-30  o-o  NOVAK          N.N.                                    
+VLACH          OTTO        1917-12-25  o-o  POLASEK        MARTHA            1922-08-07            
+VLACH          GERHARD     1944-11-19  o-o  WILFLING       RUTH                                    
+HOCHLEITNER    RUDOLF      1922-02-28  o-o  POLASEK        EVA               1927-05-12            
+HOCHLEITNER    THOMAS      1959-05-05  o-o  SCHÄFER        PETRA             1964-03-26            
+PEDERSEN       JOHN                    o-o  POLASEK        GERTRUD (TRAUDL)  1944-03-21            
