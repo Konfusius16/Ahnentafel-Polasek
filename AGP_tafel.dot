@@ -854,7 +854,7 @@ gesch. 05.05.1994" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	g4p01 -> g4p04 [constraint=true minlen=0 style=invis weight=300]
 	g4p06 -> geh06 [constraint=true minlen=0 style=invis weight=300]
 	g4p04 -> g4p06 [constraint=true minlen=0 style=invis weight=300]
-	M_gehF2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_gehF2 shape=ellipse style=filled]
+	M_gehF2 [label="09.09.1966" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_gehF2 shape=ellipse style=filled]
 	subgraph rank_gehF2 {
 		rank=same
 		geh03

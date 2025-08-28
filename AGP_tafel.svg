@@ -1573,8 +1573,8 @@
 <!-- M_gehF2 -->
 <g id="M_gehF2" class="node">
 <title>M_gehF2</title>
-<ellipse fill="#fff3b0" stroke="#b08900" cx="2098" cy="-282.8" rx="27" ry="18"/>
-<text text-anchor="middle" x="2098" y="-280.6" font-family="DejaVu Sans" font-size="9.00">oo</text>
+<ellipse fill="#fff3b0" stroke="#b08900" cx="2098" cy="-282.8" rx="40.98" ry="18"/>
+<text text-anchor="middle" x="2098" y="-280.6" font-family="DejaVu Sans" font-size="9.00">09.09.1966</text>
 </g>
 <!-- geh03&#45;&gt;M_gehF2 -->
 <g id="edge177" class="edge">
@@ -1584,7 +1584,7 @@
 <!-- geh04&#45;&gt;M_gehF2 -->
 <g id="edge178" class="edge">
 <title>geh04&#45;&gt;M_gehF2</title>
-<path fill="none" stroke="#555555" d="M2207.86,-357.93C2180.32,-339.35 2139.83,-312.03 2116.47,-296.26"/>
+<path fill="none" stroke="#555555" d="M2207.86,-357.93C2181.43,-340.1 2143.08,-314.22 2119.39,-298.23"/>
 </g>
 <!-- geh05 -->
 <g id="P_geh05" class="node">
@@ -2900,14 +2900,14 @@
 <!-- M_gehF2&#45;&gt;geh07 -->
 <g id="edge179" class="edge">
 <title>M_gehF2&#45;&gt;geh07</title>
-<path fill="none" stroke="#555555" d="M2074.99,-273.33C2038.17,-259.79 1964.99,-232.86 1913.83,-214.04"/>
-<polygon fill="#555555" stroke="#555555" points="1914.83,-210.68 1904.23,-210.51 1912.41,-217.25 1914.83,-210.68"/>
+<path fill="none" stroke="#555555" d="M2067.6,-270.62C2029.13,-256.46 1962.12,-231.81 1914.22,-214.18"/>
+<polygon fill="#555555" stroke="#555555" points="1915.2,-210.82 1904.61,-210.65 1912.78,-217.39 1915.2,-210.82"/>
 </g>
 <!-- M_gehF2&#45;&gt;geh08 -->
 <g id="edge180" class="edge">
 <title>M_gehF2&#45;&gt;geh08</title>
-<path fill="none" stroke="#555555" d="M2105.9,-265.19C2111.98,-252.4 2120.5,-234.49 2127.51,-219.76"/>
-<polygon fill="#555555" stroke="#555555" points="2130.71,-221.17 2131.85,-210.64 2124.39,-218.16 2130.71,-221.17"/>
+<path fill="none" stroke="#555555" d="M2106.1,-264.77C2112.16,-252.03 2120.56,-234.36 2127.49,-219.81"/>
+<polygon fill="#555555" stroke="#555555" points="2130.65,-221.31 2131.78,-210.77 2124.33,-218.3 2130.65,-221.31"/>
 </g>
 <!-- M_g4F0&#45;&gt;g4p10 -->
 <g id="edge193" class="edge">

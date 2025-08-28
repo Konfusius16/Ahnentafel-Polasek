@@ -4,109 +4,109 @@ digraph {
 	graph [fontname="DejaVu Sans" fontsize=12 label=Otto labelloc=t]
 	node [color="#333333" fontname="DejaVu Sans" fontsize=10 shape=box style="rounded,filled"]
 	edge [color="#555555" fontname="DejaVu Sans"]
-	polS06 [label="Igo Koch
-*29.07.1947" fillcolor="#dbeafe" id=P_polS06]
-	g2p09 [label="Johanna Polasek
-*12.07.2006" fillcolor="#fde7ef" id=P_g2p09]
-	g3p06 [label="Hannah Guttenberger
-*05.02.2006" fillcolor="#fde7ef" id=P_g3p06]
-	ped01 [label="John Pedersen
-*31.07.1938" fillcolor="#dbeafe" id=P_ped01]
-	polS02 [label="Gertrude Polasek
-geb. Winkler" fillcolor="#fde7ef" id=P_polS02]
-	g3p05 [label="Yannick Guttenberger
-*13.09.2004" fillcolor="#dbeafe" id=P_g3p05]
-	g2p16 [label="Nelo-Mika Schultheiss
-*15.08.2022" fillcolor="#dbeafe" id=P_g2p16]
-	pol14 [label="Gertrud (Traudl) Pedersen
-geb. Polasek
-*21.03.1944" fillcolor="#fde7ef" id=P_pol14]
-	ped02 [label="Pia Pedersen
-*10.04.1971" fillcolor="#fde7ef" id=P_ped02]
-	g2p11 [label="Tim Niklaus
-*23.10.2012" fillcolor="#dbeafe" id=P_g2p11]
+	g3p04 [label="Carina Guttenberger
+*30.03.1982" fillcolor="#fde7ef" id=P_g3p04]
 	polS04 [label="Edith Polasek
 geb. Billich
 *26.10.1947" fillcolor="#fde7ef" id=P_polS04]
-	pol24 [label="Karin Schlosser
-*23.11.1977" fillcolor="#fde7ef" id=P_pol24]
-	polS03 [label="Inge Polasek
-geb. Rokitzki
-*11.02.1928" fillcolor="#fde7ef" id=P_polS03]
-	pol21 [label="Daniel Polasek
-*15.05.1986" fillcolor="#dbeafe" id=P_pol21]
-	g3p07 [label="Nathan Guttenberger
-*19.11.2007" fillcolor="#dbeafe" id=P_g3p07]
-	pol16 [label="Christine Koch
-geb. Polasek
-*19.07.1952" fillcolor="#fde7ef" id=P_pol16]
-	polS08 [label="Burkhard Vogl
-*11.01.1950" fillcolor="#dbeafe" id=P_polS08]
-	pol20 [label="Bettina Niklaus
-geb. Polasek
-*12.04.1983" fillcolor="#fde7ef" id=P_pol20]
-	polS07 [label="Paul Schlosser
-*19.08.1943" fillcolor="#dbeafe" id=P_polS07]
+	g3p05 [label="Yannick Guttenberger
+*13.09.2004" fillcolor="#dbeafe" id=P_g3p05]
+	pol23 [label="Irene Schlosser
+*20.03.1975" fillcolor="#fde7ef" id=P_pol23]
+	g3p08 [label="Sara Guttenberger
+*16.09.2011" fillcolor="#fde7ef" id=P_g3p08]
 	pol18 [label="Doris Kessler
 geb. Polasek
 verh. Vogl
 *03.02.1959" fillcolor="#fde7ef" id=P_pol18]
-	g2p10 [label="Matthias Niklaus
-*15.09.1981" fillcolor="#dbeafe" id=P_g2p10]
-	polS09 [label="Jürgen Kessler
-*06.12.1946" fillcolor="#dbeafe" id=P_polS09]
-	g2p07 [label="Elisabeth Polasek
-geb. Lackner
-*13.05.1973" fillcolor="#fde7ef" id=P_g2p07]
-	g3p08 [label="Sara Guttenberger
-*16.09.2011" fillcolor="#fde7ef" id=P_g3p08]
-	pol19 [label="Richard Polasek
-*06.01.1976" fillcolor="#dbeafe" id=P_pol19]
-	pol23 [label="Irene Schlosser
-*20.03.1975" fillcolor="#fde7ef" id=P_pol23]
-	g2p13 [label="Ben Niklaus
-*14.10.2016" fillcolor="#dbeafe" id=P_g2p13]
-	pol11 [label="Otto Polasek
-*14.09.1912  +01.11.1994" color="#111111" fillcolor="#dbeafe" id=P_pol11 penwidth=1.8]
-	g3p04 [label="Carina Guttenberger
-*30.03.1982" fillcolor="#fde7ef" id=P_g3p04]
-	g2p15 [label="Koa-Miro Schultheiss
-*29.08.2019" fillcolor="#dbeafe" id=P_g2p15]
-	pol15 [label="Wolfgang Polasek
-*19.06.1951  +23.05.2013" fillcolor="#dbeafe" id=P_pol15]
-	polS05 [label="Hanka Polasek
-geb. Steindel
-*10.06.1951" fillcolor="#fde7ef" id=P_polS05]
+	g2p09 [label="Johanna Polasek
+*12.07.2006" fillcolor="#fde7ef" id=P_g2p09]
+	g3p07 [label="Nathan Guttenberger
+*19.11.2007" fillcolor="#dbeafe" id=P_g3p07]
 	pol22 [label="Oliver Koch
 *10.10.1974" fillcolor="#dbeafe" id=P_pol22]
-	pol25 [label="Julian Kessler
-*28.01.1998" fillcolor="#dbeafe" id=P_pol25]
-	g2p12 [label="Lina Niklaus
-*24.08.2014" fillcolor="#fde7ef" id=P_g2p12]
+	pol24 [label="Karin Schlosser
+*23.11.1977" fillcolor="#fde7ef" id=P_pol24]
+	g2p13 [label="Ben Niklaus
+*14.10.2016" fillcolor="#dbeafe" id=P_g2p13]
 	pol17 [label="Adele (Sissi) Schlosser
 geb. Polasek
 *21.02.1954  +31.12.2023" fillcolor="#fde7ef" id=P_pol17]
-	g2p08 [label="Maximilian Polasek
-*09.12.2001" fillcolor="#dbeafe" id=P_g2p08]
+	pol16 [label="Christine Koch
+geb. Polasek
+*19.07.1952" fillcolor="#fde7ef" id=P_pol16]
+	pol14 [label="Gertrud (Traudl) Pedersen
+geb. Polasek
+*21.03.1944" fillcolor="#fde7ef" id=P_pol14]
+	pol15 [label="Wolfgang Polasek
+*19.06.1951  +23.05.2013" fillcolor="#dbeafe" id=P_pol15]
 	g2p14 [label="Julia Schultheiss
 *29.04.1986" fillcolor="#fde7ef" id=P_g2p14]
-	M_polF7 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF7 shape=ellipse style=filled]
-	subgraph rank_polF7 {
+	pol11 [label="Otto Polasek
+*14.09.1912  +01.11.1994" color="#111111" fillcolor="#dbeafe" id=P_pol11 penwidth=1.8]
+	g2p15 [label="Koa-Miro Schultheiss
+*29.08.2019" fillcolor="#dbeafe" id=P_g2p15]
+	polS09 [label="Jürgen Kessler
+*06.12.1946" fillcolor="#dbeafe" id=P_polS09]
+	pol25 [label="Julian Kessler
+*28.01.1998" fillcolor="#dbeafe" id=P_pol25]
+	g2p11 [label="Tim Niklaus
+*23.10.2012" fillcolor="#dbeafe" id=P_g2p11]
+	pol21 [label="Daniel Polasek
+*15.05.1986" fillcolor="#dbeafe" id=P_pol21]
+	polS06 [label="Igo Koch
+*29.07.1947" fillcolor="#dbeafe" id=P_polS06]
+	g2p10 [label="Matthias Niklaus
+*15.09.1981" fillcolor="#dbeafe" id=P_g2p10]
+	g3p06 [label="Hannah Guttenberger
+*05.02.2006" fillcolor="#fde7ef" id=P_g3p06]
+	ped01 [label="John Pedersen
+*31.07.1938" fillcolor="#dbeafe" id=P_ped01]
+	pol20 [label="Bettina Niklaus
+geb. Polasek
+*12.04.1983" fillcolor="#fde7ef" id=P_pol20]
+	polS05 [label="Hanka Polasek
+geb. Steindel
+*10.06.1951" fillcolor="#fde7ef" id=P_polS05]
+	pol19 [label="Richard Polasek
+*06.01.1976" fillcolor="#dbeafe" id=P_pol19]
+	polS02 [label="Gertrude Polasek
+geb. Winkler" fillcolor="#fde7ef" id=P_polS02]
+	g2p08 [label="Maximilian Polasek
+*09.12.2001" fillcolor="#dbeafe" id=P_g2p08]
+	polS07 [label="Paul Schlosser
+*19.08.1943" fillcolor="#dbeafe" id=P_polS07]
+	g2p12 [label="Lina Niklaus
+*24.08.2014" fillcolor="#fde7ef" id=P_g2p12]
+	g2p07 [label="Elisabeth Polasek
+geb. Lackner
+*13.05.1973" fillcolor="#fde7ef" id=P_g2p07]
+	polS08 [label="Burkhard Vogl
+*11.01.1950" fillcolor="#dbeafe" id=P_polS08]
+	g2p16 [label="Nelo-Mika Schultheiss
+*15.08.2022" fillcolor="#dbeafe" id=P_g2p16]
+	ped02 [label="Pia Pedersen
+*10.04.1971" fillcolor="#fde7ef" id=P_ped02]
+	polS03 [label="Inge Polasek
+geb. Rokitzki
+*11.02.1928" fillcolor="#fde7ef" id=P_polS03]
+	M_g2F5 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g2F5 shape=ellipse style=filled]
+	subgraph rank_g2F5 {
 		rank=same
-		polS07
-		pol17
+		pol21
+		g2p14
 	}
-	polS07 -> pol17 [constraint=true minlen=0 style=invis weight=3600]
-	polS07 -> M_polF7 [dir=none minlen=1 weight=60]
-	pol17 -> M_polF7 [dir=none minlen=1 weight=60]
-	subgraph kids_polF7 {
+	pol21 -> g2p14 [constraint=true minlen=0 style=invis weight=3600]
+	pol21 -> M_g2F5 [dir=none minlen=1 weight=60]
+	g2p14 -> M_g2F5 [dir=none minlen=1 weight=60]
+	subgraph kids_g2F5 {
 		rank=same
-		pol23
-		pol24
+		g2p15
+		g2p16
 	}
-	M_polF7 -> pol23
-	M_polF7 -> pol24
-	pol23 -> pol24 [constraint=true minlen=0 style=invis weight=1400]
+	M_g2F5 -> g2p15
+	M_g2F5 -> g2p16
+	g2p15 -> g2p16 [constraint=true minlen=0 style=invis weight=1400]
 	M_g2F3 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g2F3 shape=ellipse style=filled]
 	subgraph rank_g2F3 {
 		rank=same
@@ -124,40 +124,6 @@ geb. Polasek
 	M_g2F3 -> g2p08
 	M_g2F3 -> g2p09
 	g2p08 -> g2p09 [constraint=true minlen=0 style=invis weight=1400]
-	M_polF6 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF6 shape=ellipse style=filled]
-	subgraph rank_polF6 {
-		rank=same
-		polS06
-		pol16
-	}
-	polS06 -> pol16 [constraint=true minlen=0 style=invis weight=3600]
-	polS06 -> M_polF6 [dir=none minlen=1 weight=60]
-	pol16 -> M_polF6 [dir=none minlen=1 weight=60]
-	subgraph kids_polF6 {
-		rank=same
-		pol22
-	}
-	M_polF6 -> pol22
-	subgraph pair_pol22 {
-		rank=same
-		pol22
-		g3p04
-	}
-	pol22 -> g3p04 [constraint=true minlen=0 style=invis weight=2600]
-	M_polF9 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF9 shape=ellipse style=filled]
-	subgraph rank_polF9 {
-		rank=same
-		polS09
-		pol18
-	}
-	polS09 -> pol18 [constraint=true minlen=0 style=invis weight=3600]
-	polS09 -> M_polF9 [dir=none minlen=1 weight=60]
-	pol18 -> M_polF9 [dir=none minlen=1 weight=60]
-	subgraph kids_polF9 {
-		rank=same
-		pol25
-	}
-	M_polF9 -> pol25
 	M_polF3 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF3 shape=ellipse style=filled]
 	subgraph rank_polF3 {
 		rank=same
@@ -208,26 +174,26 @@ geb. Polasek
 		polS08
 	}
 	polS08 -> pol18 [constraint=true minlen=0 style=invis weight=2600]
-	M_polF2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF2 shape=ellipse style=filled]
-	subgraph rank_polF2 {
+	M_polF6 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF6 shape=ellipse style=filled]
+	subgraph rank_polF6 {
 		rank=same
-		pol11
-		polS02
+		polS06
+		pol16
 	}
-	pol11 -> polS02 [constraint=true minlen=0 style=invis weight=3600]
-	pol11 -> M_polF2 [dir=none minlen=1 weight=60]
-	polS02 -> M_polF2 [dir=none minlen=1 weight=60]
-	subgraph kids_polF2 {
+	polS06 -> pol16 [constraint=true minlen=0 style=invis weight=3600]
+	polS06 -> M_polF6 [dir=none minlen=1 weight=60]
+	pol16 -> M_polF6 [dir=none minlen=1 weight=60]
+	subgraph kids_polF6 {
 		rank=same
-		pol14
+		pol22
 	}
-	M_polF2 -> pol14
-	subgraph pair_pol14 {
+	M_polF6 -> pol22
+	subgraph pair_pol22 {
 		rank=same
-		pol14
-		ped01
+		pol22
+		g3p04
 	}
-	ped01 -> pol14 [constraint=true minlen=0 style=invis weight=2600]
+	pol22 -> g3p04 [constraint=true minlen=0 style=invis weight=2600]
 	M_polF5 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF5 shape=ellipse style=filled]
 	subgraph rank_polF5 {
 		rank=same
@@ -258,6 +224,23 @@ geb. Polasek
 		g2p14
 	}
 	pol21 -> g2p14 [constraint=true minlen=0 style=invis weight=2600]
+	M_polF7 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF7 shape=ellipse style=filled]
+	subgraph rank_polF7 {
+		rank=same
+		polS07
+		pol17
+	}
+	polS07 -> pol17 [constraint=true minlen=0 style=invis weight=3600]
+	polS07 -> M_polF7 [dir=none minlen=1 weight=60]
+	pol17 -> M_polF7 [dir=none minlen=1 weight=60]
+	subgraph kids_polF7 {
+		rank=same
+		pol23
+		pol24
+	}
+	M_polF7 -> pol23
+	M_polF7 -> pol24
+	pol23 -> pol24 [constraint=true minlen=0 style=invis weight=1400]
 	M_polF8 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF8 shape=ellipse style=filled]
 	subgraph rank_polF8 {
 		rank=same
@@ -267,26 +250,6 @@ geb. Polasek
 	polS08 -> pol18 [constraint=true minlen=0 style=invis weight=3600]
 	polS08 -> M_polF8 [dir=none minlen=1 weight=60]
 	pol18 -> M_polF8 [dir=none minlen=1 weight=60]
-	M_polF4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF4 shape=ellipse style=filled]
-	subgraph rank_polF4 {
-		rank=same
-		pol15
-		polS04
-	}
-	pol15 -> polS04 [constraint=true minlen=0 style=invis weight=3600]
-	pol15 -> M_polF4 [dir=none minlen=1 weight=60]
-	polS04 -> M_polF4 [dir=none minlen=1 weight=60]
-	subgraph kids_polF4 {
-		rank=same
-		pol19
-	}
-	M_polF4 -> pol19
-	subgraph pair_pol19 {
-		rank=same
-		pol19
-		g2p07
-	}
-	pol19 -> g2p07 [constraint=true minlen=0 style=invis weight=2600]
 	M_g2F4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g2F4 shape=ellipse style=filled]
 	subgraph rank_g2F4 {
 		rank=same
@@ -330,23 +293,60 @@ geb. Polasek
 	g3p05 -> g3p06 [constraint=true minlen=0 style=invis weight=1400]
 	g3p06 -> g3p07 [constraint=true minlen=0 style=invis weight=1400]
 	g3p07 -> g3p08 [constraint=true minlen=0 style=invis weight=1400]
-	M_g2F5 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g2F5 shape=ellipse style=filled]
-	subgraph rank_g2F5 {
+	M_polF4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF4 shape=ellipse style=filled]
+	subgraph rank_polF4 {
 		rank=same
-		pol21
-		g2p14
+		pol15
+		polS04
 	}
-	pol21 -> g2p14 [constraint=true minlen=0 style=invis weight=3600]
-	pol21 -> M_g2F5 [dir=none minlen=1 weight=60]
-	g2p14 -> M_g2F5 [dir=none minlen=1 weight=60]
-	subgraph kids_g2F5 {
+	pol15 -> polS04 [constraint=true minlen=0 style=invis weight=3600]
+	pol15 -> M_polF4 [dir=none minlen=1 weight=60]
+	polS04 -> M_polF4 [dir=none minlen=1 weight=60]
+	subgraph kids_polF4 {
 		rank=same
-		g2p15
-		g2p16
+		pol19
 	}
-	M_g2F5 -> g2p15
-	M_g2F5 -> g2p16
-	g2p15 -> g2p16 [constraint=true minlen=0 style=invis weight=1400]
+	M_polF4 -> pol19
+	subgraph pair_pol19 {
+		rank=same
+		pol19
+		g2p07
+	}
+	pol19 -> g2p07 [constraint=true minlen=0 style=invis weight=2600]
+	M_polF2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF2 shape=ellipse style=filled]
+	subgraph rank_polF2 {
+		rank=same
+		pol11
+		polS02
+	}
+	pol11 -> polS02 [constraint=true minlen=0 style=invis weight=3600]
+	pol11 -> M_polF2 [dir=none minlen=1 weight=60]
+	polS02 -> M_polF2 [dir=none minlen=1 weight=60]
+	subgraph kids_polF2 {
+		rank=same
+		pol14
+	}
+	M_polF2 -> pol14
+	subgraph pair_pol14 {
+		rank=same
+		pol14
+		ped01
+	}
+	ped01 -> pol14 [constraint=true minlen=0 style=invis weight=2600]
+	M_polF9 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF9 shape=ellipse style=filled]
+	subgraph rank_polF9 {
+		rank=same
+		polS09
+		pol18
+	}
+	polS09 -> pol18 [constraint=true minlen=0 style=invis weight=3600]
+	polS09 -> M_polF9 [dir=none minlen=1 weight=60]
+	pol18 -> M_polF9 [dir=none minlen=1 weight=60]
+	subgraph kids_polF9 {
+		rank=same
+		pol25
+	}
+	M_polF9 -> pol25
 	M_pedF1 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_pedF1 shape=ellipse style=filled]
 	subgraph rank_pedF1 {
 		rank=same
