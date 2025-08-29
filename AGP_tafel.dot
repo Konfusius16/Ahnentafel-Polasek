@@ -713,8 +713,8 @@ geb. Gahler" fillcolor="#fde7ef" id=P_gah01]
 	att07 -> att14 [constraint=true minlen=0 style=invis weight=300]
 	att14 -> att08 [constraint=true minlen=0 style=invis weight=300]
 	g6p02 -> att07 [constraint=true minlen=0 style=invis weight=300]
-	M_attF5 [label="05.05.1974
-gesch. 05.05.1994" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 shape=ellipse style=filled]
+	M_attF5 [label="18.05.1974
+gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 shape=ellipse style=filled]
 	subgraph rank_attF5 {
 		rank=same
 		att07
