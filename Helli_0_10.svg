@@ -5,7 +5,7 @@
  -->
 <!-- Title: %3 Pages: 1 -->
 <svg width="1090pt" height="600pt"
- viewBox="0.00 0.00 1089.50 599.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 1090.00 599.60" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <style><![CDATA[
   g[id^="P_"], g[id^="M_"] { cursor: pointer; }
   .highlight ellipse, .highlight polygon, .highlight path, .highlight rect {
@@ -16,8 +16,8 @@
 ]]></style>
 <script><![CDATA[
 (function(){
-  var SPOUSE = {"P_att07": ["P_att08", "P_att14"], "P_att08": ["P_att07"], "P_att05": ["P_att06"], "P_att06": ["P_att05"], "P_att21": ["P_attS02"], "P_attS02": ["P_att21"], "P_att36": ["P_g6p02"], "P_g6p02": ["P_att36"], "P_g6p13": ["P_att35"], "P_att35": ["P_g6p13"], "P_att14": ["P_att07"], "P_g6p09": ["P_att34"], "P_att34": ["P_g6p09"]};
-  var FAMILY = {"M_attF3": ["P_att07", "P_att08"], "M_attF2": ["P_att05", "P_att06", "P_att36", "P_att07"], "M_attF10": ["P_att21", "P_attS02", "P_att41"], "M_g6F1": ["P_att36", "P_g6p02", "P_att32", "P_att33", "P_att34"], "M_g6F5": ["P_g6p13", "P_att35"], "M_attF5": ["P_att07", "P_att14", "P_att21", "P_att35"], "M_g6F2": ["P_g6p09", "P_att34", "P_g6p10"]};
+  var SPOUSE = {"P_att07": ["P_att14", "P_att08"], "P_att14": ["P_att07"], "P_g6p09": ["P_att34"], "P_att34": ["P_g6p09"], "P_att08": ["P_att07"], "P_att36": ["P_g6p02"], "P_g6p02": ["P_att36"], "P_g6p13": ["P_att35"], "P_att35": ["P_g6p13"], "P_att05": ["P_att06"], "P_att06": ["P_att05"], "P_att21": ["P_attS02"], "P_attS02": ["P_att21"]};
+  var FAMILY = {"M_attF5": ["P_att07", "P_att14", "P_att21", "P_att35"], "M_g6F2": ["P_g6p09", "P_att34", "P_g6p10"], "M_attF3": ["P_att07", "P_att08"], "M_g6F1": ["P_att36", "P_g6p02", "P_att32", "P_att33", "P_att34"], "M_g6F5": ["P_g6p13", "P_att35"], "M_attF2": ["P_att05", "P_att06", "P_att36", "P_att07"], "M_attF10": ["P_att21", "P_attS02", "P_att41"]};
   function clearHl(){ document.querySelectorAll('.blink').forEach(function(n){ n.classList.remove('blink'); n.classList.remove('highlight'); }); }
   function hl(id){ var el=document.getElementById(id); if(el){ el.classList.add('highlight'); el.classList.add('blink'); } }
   document.addEventListener('click', function(evt){
@@ -34,240 +34,21 @@
 
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 595.6)">
 <title>%3</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-595.6 1085.5,-595.6 1085.5,4 -4,4"/>
-<text text-anchor="middle" x="540.75" y="-578" font-family="DejaVu Sans" font-size="12.00">Helli</text>
-<!-- att33 -->
-<g id="P_att33" class="node">
-<title>att33</title>
-<path fill="#fde7ef" stroke="#333333" d="M277.5,-210.5C277.5,-210.5 157.5,-210.5 157.5,-210.5 151.5,-210.5 145.5,-204.5 145.5,-198.5 145.5,-198.5 145.5,-186.5 145.5,-186.5 145.5,-180.5 151.5,-174.5 157.5,-174.5 157.5,-174.5 277.5,-174.5 277.5,-174.5 283.5,-174.5 289.5,-180.5 289.5,-186.5 289.5,-186.5 289.5,-198.5 289.5,-198.5 289.5,-204.5 283.5,-210.5 277.5,-210.5"/>
-<text text-anchor="middle" x="217.5" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Sigrid Adelsberger</text>
-<text text-anchor="middle" x="217.5" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*04.01.1978 &#160;+28.09.1978</text>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-595.6 1086,-595.6 1086,4 -4,4"/>
+<text text-anchor="middle" x="541" y="-578" font-family="DejaVu Sans" font-size="12.00">Helli</text>
+<!-- g6p09 -->
+<g id="P_g6p09" class="node">
+<title>g6p09</title>
+<path fill="#dbeafe" stroke="#333333" d="M80,-210.5C80,-210.5 12,-210.5 12,-210.5 6,-210.5 0,-204.5 0,-198.5 0,-198.5 0,-186.5 0,-186.5 0,-180.5 6,-174.5 12,-174.5 12,-174.5 80,-174.5 80,-174.5 86,-174.5 92,-180.5 92,-186.5 92,-186.5 92,-198.5 92,-198.5 92,-204.5 86,-210.5 80,-210.5"/>
+<text text-anchor="middle" x="46" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Tat&#45;Dat Nguyen</text>
+<text text-anchor="middle" x="46" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*04.05.1972</text>
 </g>
 <!-- att34 -->
 <g id="P_att34" class="node">
 <title>att34</title>
-<path fill="#fde7ef" stroke="#333333" d="M539.5,-210.5C539.5,-210.5 457.5,-210.5 457.5,-210.5 451.5,-210.5 445.5,-204.5 445.5,-198.5 445.5,-198.5 445.5,-186.5 445.5,-186.5 445.5,-180.5 451.5,-174.5 457.5,-174.5 457.5,-174.5 539.5,-174.5 539.5,-174.5 545.5,-174.5 551.5,-180.5 551.5,-186.5 551.5,-186.5 551.5,-198.5 551.5,-198.5 551.5,-204.5 545.5,-210.5 539.5,-210.5"/>
-<text text-anchor="middle" x="498.5" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Ingrid Adelsberger</text>
-<text text-anchor="middle" x="498.5" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*02.01.1981</text>
-</g>
-<!-- att33&#45;&gt;att34 -->
-<!-- att05 -->
-<g id="P_att05" class="node">
-<title>att05</title>
-<path fill="#dbeafe" stroke="#333333" d="M454.5,-568.1C454.5,-568.1 334.5,-568.1 334.5,-568.1 328.5,-568.1 322.5,-562.1 322.5,-556.1 322.5,-556.1 322.5,-544.1 322.5,-544.1 322.5,-538.1 328.5,-532.1 334.5,-532.1 334.5,-532.1 454.5,-532.1 454.5,-532.1 460.5,-532.1 466.5,-538.1 466.5,-544.1 466.5,-544.1 466.5,-556.1 466.5,-556.1 466.5,-562.1 460.5,-568.1 454.5,-568.1"/>
-<text text-anchor="middle" x="394.5" y="-553.1" font-family="DejaVu Sans" font-size="10.00">Herbert Adelsberger</text>
-<text text-anchor="middle" x="394.5" y="-542.1" font-family="DejaVu Sans" font-size="10.00">*01.11.1913 &#160;+12.09.2001</text>
-</g>
-<!-- att06 -->
-<g id="P_att06" class="node">
-<title>att06</title>
-<path fill="#fde7ef" stroke="#111111" stroke-width="1.8" d="M630.5,-570.6C630.5,-570.6 510.5,-570.6 510.5,-570.6 504.5,-570.6 498.5,-564.6 498.5,-558.6 498.5,-558.6 498.5,-541.6 498.5,-541.6 498.5,-535.6 504.5,-529.6 510.5,-529.6 510.5,-529.6 630.5,-529.6 630.5,-529.6 636.5,-529.6 642.5,-535.6 642.5,-541.6 642.5,-541.6 642.5,-558.6 642.5,-558.6 642.5,-564.6 636.5,-570.6 630.5,-570.6"/>
-<text text-anchor="middle" x="570.5" y="-558.6" font-family="DejaVu Sans" font-size="10.00">Helene Adelsberger</text>
-<text text-anchor="middle" x="570.5" y="-547.6" font-family="DejaVu Sans" font-size="10.00">geb. Polasek</text>
-<text text-anchor="middle" x="570.5" y="-536.6" font-family="DejaVu Sans" font-size="10.00">*05.03.1917 &#160;+24.05.2001</text>
-</g>
-<!-- att05&#45;&gt;att06 -->
-<!-- att05&#45;&gt;att06 -->
-<!-- M_attF2 -->
-<g id="M_attF2" class="node">
-<title>M_attF2</title>
-<ellipse fill="#fff3b0" stroke="#b08900" cx="482.5" cy="-461.6" rx="40.98" ry="18"/>
-<text text-anchor="middle" x="482.5" y="-459.4" font-family="DejaVu Sans" font-size="9.00">29.08.1942</text>
-</g>
-<!-- att05&#45;&gt;M_attF2 -->
-<g id="edge5" class="edge">
-<title>att05&#45;&gt;M_attF2</title>
-<path fill="none" stroke="#555555" d="M411.89,-532.01C427.81,-516.35 451.2,-493.37 466.63,-478.2"/>
-</g>
-<!-- att08 -->
-<g id="P_att08" class="node">
-<title>att08</title>
-<path fill="#fde7ef" stroke="#333333" d="M528,-393.6C528,-393.6 439,-393.6 439,-393.6 433,-393.6 427,-387.6 427,-381.6 427,-381.6 427,-364.6 427,-364.6 427,-358.6 433,-352.6 439,-352.6 439,-352.6 528,-352.6 528,-352.6 534,-352.6 540,-358.6 540,-364.6 540,-364.6 540,-381.6 540,-381.6 540,-387.6 534,-393.6 528,-393.6"/>
-<text text-anchor="middle" x="483.5" y="-381.6" font-family="DejaVu Sans" font-size="10.00">Renate Adelsberger</text>
-<text text-anchor="middle" x="483.5" y="-370.6" font-family="DejaVu Sans" font-size="10.00">geb. Rapatz</text>
-<text text-anchor="middle" x="483.5" y="-359.6" font-family="DejaVu Sans" font-size="10.00">*22.05.1960</text>
-</g>
-<!-- att07 -->
-<g id="P_att07" class="node">
-<title>att07</title>
-<path fill="#dbeafe" stroke="#333333" d="M670.5,-391.1C670.5,-391.1 584.5,-391.1 584.5,-391.1 578.5,-391.1 572.5,-385.1 572.5,-379.1 572.5,-379.1 572.5,-367.1 572.5,-367.1 572.5,-361.1 578.5,-355.1 584.5,-355.1 584.5,-355.1 670.5,-355.1 670.5,-355.1 676.5,-355.1 682.5,-361.1 682.5,-367.1 682.5,-367.1 682.5,-379.1 682.5,-379.1 682.5,-385.1 676.5,-391.1 670.5,-391.1"/>
-<text text-anchor="middle" x="627.5" y="-376.1" font-family="DejaVu Sans" font-size="10.00">Heimo Adelsberger</text>
-<text text-anchor="middle" x="627.5" y="-365.1" font-family="DejaVu Sans" font-size="10.00">*16.08.1948</text>
-</g>
-<!-- att08&#45;&gt;att07 -->
-<!-- M_attF3 -->
-<g id="M_attF3" class="node">
-<title>M_attF3</title>
-<ellipse fill="#fff3b0" stroke="#b08900" cx="543.5" cy="-282.8" rx="40.98" ry="18"/>
-<text text-anchor="middle" x="543.5" y="-280.6" font-family="DejaVu Sans" font-size="9.00">21.08.2020</text>
-</g>
-<!-- att08&#45;&gt;M_attF3 -->
-<g id="edge3" class="edge">
-<title>att08&#45;&gt;M_attF3</title>
-<path fill="none" stroke="#555555" d="M496.82,-352.5C507.45,-336.85 522.18,-315.17 532.24,-300.37"/>
-</g>
-<!-- att32 -->
-<g id="P_att32" class="node">
-<title>att32</title>
-<path fill="#fde7ef" stroke="#333333" d="M101,-210.5C101,-210.5 12,-210.5 12,-210.5 6,-210.5 0,-204.5 0,-198.5 0,-198.5 0,-186.5 0,-186.5 0,-180.5 6,-174.5 12,-174.5 12,-174.5 101,-174.5 101,-174.5 107,-174.5 113,-180.5 113,-186.5 113,-186.5 113,-198.5 113,-198.5 113,-204.5 107,-210.5 101,-210.5"/>
-<text text-anchor="middle" x="56.5" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Gudrun Adelsberger</text>
-<text text-anchor="middle" x="56.5" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*29.03.1974</text>
-</g>
-<!-- att32&#45;&gt;att33 -->
-<!-- att14 -->
-<g id="P_att14" class="node">
-<title>att14</title>
-<path fill="#fde7ef" stroke="#333333" d="M826,-393.6C826,-393.6 727,-393.6 727,-393.6 721,-393.6 715,-387.6 715,-381.6 715,-381.6 715,-364.6 715,-364.6 715,-358.6 721,-352.6 727,-352.6 727,-352.6 826,-352.6 826,-352.6 832,-352.6 838,-358.6 838,-364.6 838,-364.6 838,-381.6 838,-381.6 838,-387.6 832,-393.6 826,-393.6"/>
-<text text-anchor="middle" x="776.5" y="-381.6" font-family="DejaVu Sans" font-size="10.00">Elisabeth Adelsberger</text>
-<text text-anchor="middle" x="776.5" y="-370.6" font-family="DejaVu Sans" font-size="10.00">geb. Prendinger</text>
-<text text-anchor="middle" x="776.5" y="-359.6" font-family="DejaVu Sans" font-size="10.00">*23.06.1953</text>
-</g>
-<!-- att14&#45;&gt;att07 -->
-<!-- M_attF5 -->
-<g id="M_attF5" class="node">
-<title>M_attF5</title>
-<ellipse fill="#fff3b0" stroke="#b08900" cx="763.5" cy="-282.8" rx="73.58" ry="19.6"/>
-<text text-anchor="middle" x="763.5" y="-285.6" font-family="DejaVu Sans" font-size="9.00">18.05.1974</text>
-<text text-anchor="middle" x="763.5" y="-275.6" font-family="DejaVu Sans" font-size="9.00">gesch. 17.05.1993</text>
-</g>
-<!-- att14&#45;&gt;M_attF5 -->
-<g id="edge31" class="edge">
-<title>att14&#45;&gt;M_attF5</title>
-<path fill="none" stroke="#555555" d="M773.61,-352.5C771.43,-337.67 768.45,-317.41 766.29,-302.73"/>
-</g>
-<!-- g6p10 -->
-<g id="P_g6p10" class="node">
-<title>g6p10</title>
-<path fill="#fde7ef" stroke="#333333" d="M507,-36C507,-36 424,-36 424,-36 418,-36 412,-30 412,-24 412,-24 412,-12 412,-12 412,-6 418,0 424,0 424,0 507,0 507,0 513,0 519,-6 519,-12 519,-12 519,-24 519,-24 519,-30 513,-36 507,-36"/>
-<text text-anchor="middle" x="465.5" y="-21" font-family="DejaVu Sans" font-size="10.00">Romy Adelsberger</text>
-<text text-anchor="middle" x="465.5" y="-10" font-family="DejaVu Sans" font-size="10.00">*09.10.2018</text>
-</g>
-<!-- att36 -->
-<g id="P_att36" class="node">
-<title>att36</title>
-<path fill="#dbeafe" stroke="#333333" d="M382.5,-391.1C382.5,-391.1 292.5,-391.1 292.5,-391.1 286.5,-391.1 280.5,-385.1 280.5,-379.1 280.5,-379.1 280.5,-367.1 280.5,-367.1 280.5,-361.1 286.5,-355.1 292.5,-355.1 292.5,-355.1 382.5,-355.1 382.5,-355.1 388.5,-355.1 394.5,-361.1 394.5,-367.1 394.5,-367.1 394.5,-379.1 394.5,-379.1 394.5,-385.1 388.5,-391.1 382.5,-391.1"/>
-<text text-anchor="middle" x="337.5" y="-376.1" font-family="DejaVu Sans" font-size="10.00">Helmut Adelsberger</text>
-<text text-anchor="middle" x="337.5" y="-365.1" font-family="DejaVu Sans" font-size="10.00">*29.06.1943</text>
-</g>
-<!-- g6p02 -->
-<g id="P_g6p02" class="node">
-<title>g6p02</title>
-<path fill="#fde7ef" stroke="#333333" d="M236.5,-393.6C236.5,-393.6 146.5,-393.6 146.5,-393.6 140.5,-393.6 134.5,-387.6 134.5,-381.6 134.5,-381.6 134.5,-364.6 134.5,-364.6 134.5,-358.6 140.5,-352.6 146.5,-352.6 146.5,-352.6 236.5,-352.6 236.5,-352.6 242.5,-352.6 248.5,-358.6 248.5,-364.6 248.5,-364.6 248.5,-381.6 248.5,-381.6 248.5,-387.6 242.5,-393.6 236.5,-393.6"/>
-<text text-anchor="middle" x="191.5" y="-381.6" font-family="DejaVu Sans" font-size="10.00">Brigitta Adelsberger</text>
-<text text-anchor="middle" x="191.5" y="-370.6" font-family="DejaVu Sans" font-size="10.00">geb. Kofler</text>
-<text text-anchor="middle" x="191.5" y="-359.6" font-family="DejaVu Sans" font-size="10.00">*04.08.1945</text>
-</g>
-<!-- att36&#45;&gt;g6p02 -->
-<!-- att36&#45;&gt;g6p02 -->
-<!-- att36&#45;&gt;g6p02 -->
-<!-- att36&#45;&gt;att07 -->
-<!-- M_g6F1 -->
-<g id="M_g6F1" class="node">
-<title>M_g6F1</title>
-<ellipse fill="#fff3b0" stroke="#b08900" cx="217.5" cy="-282.8" rx="40.98" ry="18"/>
-<text text-anchor="middle" x="217.5" y="-280.6" font-family="DejaVu Sans" font-size="9.00">29.08.1969</text>
-</g>
-<!-- att36&#45;&gt;M_g6F1 -->
-<g id="edge18" class="edge">
-<title>att36&#45;&gt;M_g6F1</title>
-<path fill="none" stroke="#555555" d="M314.36,-355.07C292.16,-338.74 258.96,-314.31 237.77,-298.72"/>
-</g>
-<!-- g6p02&#45;&gt;att36 -->
-<!-- g6p02&#45;&gt;att07 -->
-<!-- g6p02&#45;&gt;M_g6F1 -->
-<g id="edge19" class="edge">
-<title>g6p02&#45;&gt;M_g6F1</title>
-<path fill="none" stroke="#555555" d="M197.27,-352.5C201.82,-337.06 208.1,-315.73 212.45,-300.95"/>
-</g>
-<!-- att06&#45;&gt;att05 -->
-<!-- att06&#45;&gt;M_attF2 -->
-<g id="edge6" class="edge">
-<title>att06&#45;&gt;M_attF2</title>
-<path fill="none" stroke="#555555" d="M550.53,-529.47C534.81,-514.02 513.19,-492.76 498.57,-478.4"/>
-</g>
-<!-- att21 -->
-<g id="P_att21" class="node">
-<title>att21</title>
-<path fill="#dbeafe" stroke="#333333" d="M797.5,-210.5C797.5,-210.5 703.5,-210.5 703.5,-210.5 697.5,-210.5 691.5,-204.5 691.5,-198.5 691.5,-198.5 691.5,-186.5 691.5,-186.5 691.5,-180.5 697.5,-174.5 703.5,-174.5 703.5,-174.5 797.5,-174.5 797.5,-174.5 803.5,-174.5 809.5,-180.5 809.5,-186.5 809.5,-186.5 809.5,-198.5 809.5,-198.5 809.5,-204.5 803.5,-210.5 797.5,-210.5"/>
-<text text-anchor="middle" x="750.5" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Stephan Adelsberger</text>
-<text text-anchor="middle" x="750.5" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*30.08.1982</text>
-</g>
-<!-- att35 -->
-<g id="P_att35" class="node">
-<title>att35</title>
-<path fill="#fde7ef" stroke="#333333" d="M941,-213C941,-213 854,-213 854,-213 848,-213 842,-207 842,-201 842,-201 842,-184 842,-184 842,-178 848,-172 854,-172 854,-172 941,-172 941,-172 947,-172 953,-178 953,-184 953,-184 953,-201 953,-201 953,-207 947,-213 941,-213"/>
-<text text-anchor="middle" x="897.5" y="-201" font-family="DejaVu Sans" font-size="10.00">Henriette Frühwirth</text>
-<text text-anchor="middle" x="897.5" y="-190" font-family="DejaVu Sans" font-size="10.00">geb. Adelsberger</text>
-<text text-anchor="middle" x="897.5" y="-179" font-family="DejaVu Sans" font-size="10.00">*11.04.1984</text>
-</g>
-<!-- att21&#45;&gt;att35 -->
-<!-- attS02 -->
-<g id="P_attS02" class="node">
-<title>attS02</title>
-<path fill="#fde7ef" stroke="#333333" d="M647.5,-210.5C647.5,-210.5 595.5,-210.5 595.5,-210.5 589.5,-210.5 583.5,-204.5 583.5,-198.5 583.5,-198.5 583.5,-186.5 583.5,-186.5 583.5,-180.5 589.5,-174.5 595.5,-174.5 595.5,-174.5 647.5,-174.5 647.5,-174.5 653.5,-174.5 659.5,-180.5 659.5,-186.5 659.5,-186.5 659.5,-198.5 659.5,-198.5 659.5,-204.5 653.5,-210.5 647.5,-210.5"/>
-<text text-anchor="middle" x="621.5" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Nina Novak</text>
-<text text-anchor="middle" x="621.5" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*16.11.1989</text>
-</g>
-<!-- att21&#45;&gt;attS02 -->
-<!-- att21&#45;&gt;attS02 -->
-<!-- att21&#45;&gt;attS02 -->
-<!-- M_attF10 -->
-<g id="M_attF10" class="node">
-<title>M_attF10</title>
-<ellipse fill="#fff3b0" stroke="#b08900" cx="654.5" cy="-104" rx="27" ry="18"/>
-<text text-anchor="middle" x="654.5" y="-101.8" font-family="DejaVu Sans" font-size="9.00">oo</text>
-</g>
-<!-- att21&#45;&gt;M_attF10 -->
-<g id="edge14" class="edge">
-<title>att21&#45;&gt;M_attF10</title>
-<path fill="none" stroke="#555555" d="M731.53,-174.41C713.5,-158.16 686.71,-134.02 669.95,-118.92"/>
-</g>
-<!-- g6p13 -->
-<g id="P_g6p13" class="node">
-<title>g6p13</title>
-<path fill="#dbeafe" stroke="#333333" d="M1069.5,-210.5C1069.5,-210.5 997.5,-210.5 997.5,-210.5 991.5,-210.5 985.5,-204.5 985.5,-198.5 985.5,-198.5 985.5,-186.5 985.5,-186.5 985.5,-180.5 991.5,-174.5 997.5,-174.5 997.5,-174.5 1069.5,-174.5 1069.5,-174.5 1075.5,-174.5 1081.5,-180.5 1081.5,-186.5 1081.5,-186.5 1081.5,-198.5 1081.5,-198.5 1081.5,-204.5 1075.5,-210.5 1069.5,-210.5"/>
-<text text-anchor="middle" x="1033.5" y="-190" font-family="DejaVu Sans" font-size="10.00">Jürgen Frühwirth</text>
-</g>
-<!-- att35&#45;&gt;g6p13 -->
-<!-- M_g6F5 -->
-<g id="M_g6F5" class="node">
-<title>M_g6F5</title>
-<ellipse fill="#fff3b0" stroke="#b08900" cx="965.5" cy="-104" rx="27" ry="18"/>
-<text text-anchor="middle" x="965.5" y="-101.8" font-family="DejaVu Sans" font-size="9.00">oo</text>
-</g>
-<!-- att35&#45;&gt;M_g6F5 -->
-<g id="edge28" class="edge">
-<title>att35&#45;&gt;M_g6F5</title>
-<path fill="none" stroke="#555555" d="M912.93,-171.87C925.23,-156.22 942.22,-134.61 953.52,-120.25"/>
-</g>
-<!-- attS02&#45;&gt;att21 -->
-<!-- attS02&#45;&gt;att35 -->
-<!-- attS02&#45;&gt;M_attF10 -->
-<g id="edge15" class="edge">
-<title>attS02&#45;&gt;M_attF10</title>
-<path fill="none" stroke="#555555" d="M628.02,-174.41C633.84,-159.15 642.32,-136.92 648.11,-121.76"/>
-</g>
-<!-- g6p13&#45;&gt;att35 -->
-<!-- g6p13&#45;&gt;att35 -->
-<!-- g6p13&#45;&gt;att35 -->
-<!-- g6p13&#45;&gt;M_g6F5 -->
-<g id="edge27" class="edge">
-<title>g6p13&#45;&gt;M_g6F5</title>
-<path fill="none" stroke="#555555" d="M1020.07,-174.41C1007.68,-158.65 989.46,-135.48 977.54,-120.32"/>
-</g>
-<!-- att41 -->
-<g id="P_att41" class="node">
-<title>att41</title>
-<path fill="#fde7ef" stroke="#333333" d="M680.5,-36C680.5,-36 628.5,-36 628.5,-36 622.5,-36 616.5,-30 616.5,-24 616.5,-24 616.5,-12 616.5,-12 616.5,-6 622.5,0 628.5,0 628.5,0 680.5,0 680.5,0 686.5,0 692.5,-6 692.5,-12 692.5,-12 692.5,-24 692.5,-24 692.5,-30 686.5,-36 680.5,-36"/>
-<text text-anchor="middle" x="654.5" y="-21" font-family="DejaVu Sans" font-size="10.00">Lea Novak</text>
-<text text-anchor="middle" x="654.5" y="-10" font-family="DejaVu Sans" font-size="10.00">*28.05.2025</text>
-</g>
-<!-- g6p09 -->
-<g id="P_g6p09" class="node">
-<title>g6p09</title>
-<path fill="#dbeafe" stroke="#333333" d="M401.5,-210.5C401.5,-210.5 333.5,-210.5 333.5,-210.5 327.5,-210.5 321.5,-204.5 321.5,-198.5 321.5,-198.5 321.5,-186.5 321.5,-186.5 321.5,-180.5 327.5,-174.5 333.5,-174.5 333.5,-174.5 401.5,-174.5 401.5,-174.5 407.5,-174.5 413.5,-180.5 413.5,-186.5 413.5,-186.5 413.5,-198.5 413.5,-198.5 413.5,-204.5 407.5,-210.5 401.5,-210.5"/>
-<text text-anchor="middle" x="367.5" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Tat&#45;Dat Nguyen</text>
-<text text-anchor="middle" x="367.5" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*04.05.1972</text>
+<path fill="#fde7ef" stroke="#333333" d="M540,-210.5C540,-210.5 458,-210.5 458,-210.5 452,-210.5 446,-204.5 446,-198.5 446,-198.5 446,-186.5 446,-186.5 446,-180.5 452,-174.5 458,-174.5 458,-174.5 540,-174.5 540,-174.5 546,-174.5 552,-180.5 552,-186.5 552,-186.5 552,-198.5 552,-198.5 552,-204.5 546,-210.5 540,-210.5"/>
+<text text-anchor="middle" x="499" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Ingrid Adelsberger</text>
+<text text-anchor="middle" x="499" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*02.01.1981</text>
 </g>
 <!-- g6p09&#45;&gt;att34 -->
 <!-- g6p09&#45;&gt;att34 -->
@@ -275,88 +56,307 @@
 <!-- M_g6F2 -->
 <g id="M_g6F2" class="node">
 <title>M_g6F2</title>
-<ellipse fill="#fff3b0" stroke="#b08900" cx="465.5" cy="-104" rx="40.98" ry="18"/>
-<text text-anchor="middle" x="465.5" y="-101.8" font-family="DejaVu Sans" font-size="9.00">27.06.2015</text>
+<ellipse fill="#fff3b0" stroke="#b08900" cx="336" cy="-104" rx="40.98" ry="18"/>
+<text text-anchor="middle" x="336" y="-101.8" font-family="DejaVu Sans" font-size="9.00">27.06.2015</text>
 </g>
 <!-- g6p09&#45;&gt;M_g6F2 -->
-<g id="edge39" class="edge">
+<g id="edge11" class="edge">
 <title>g6p09&#45;&gt;M_g6F2</title>
-<path fill="none" stroke="#555555" d="M386.86,-174.41C404.71,-158.65 430.97,-135.48 448.15,-120.32"/>
+<path fill="none" stroke="#555555" d="M92.03,-177.02C101.16,-174.15 108,-172 108,-172 108,-172 239.61,-133.32 302.85,-114.74"/>
+</g>
+<!-- att32 -->
+<g id="P_att32" class="node">
+<title>att32</title>
+<path fill="#fde7ef" stroke="#333333" d="M225.5,-210.5C225.5,-210.5 136.5,-210.5 136.5,-210.5 130.5,-210.5 124.5,-204.5 124.5,-198.5 124.5,-198.5 124.5,-186.5 124.5,-186.5 124.5,-180.5 130.5,-174.5 136.5,-174.5 136.5,-174.5 225.5,-174.5 225.5,-174.5 231.5,-174.5 237.5,-180.5 237.5,-186.5 237.5,-186.5 237.5,-198.5 237.5,-198.5 237.5,-204.5 231.5,-210.5 225.5,-210.5"/>
+<text text-anchor="middle" x="181" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Gudrun Adelsberger</text>
+<text text-anchor="middle" x="181" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*29.03.1974</text>
+</g>
+<!-- att33 -->
+<g id="P_att33" class="node">
+<title>att33</title>
+<path fill="#fde7ef" stroke="#333333" d="M402,-210.5C402,-210.5 282,-210.5 282,-210.5 276,-210.5 270,-204.5 270,-198.5 270,-198.5 270,-186.5 270,-186.5 270,-180.5 276,-174.5 282,-174.5 282,-174.5 402,-174.5 402,-174.5 408,-174.5 414,-180.5 414,-186.5 414,-186.5 414,-198.5 414,-198.5 414,-204.5 408,-210.5 402,-210.5"/>
+<text text-anchor="middle" x="342" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Sigrid Adelsberger</text>
+<text text-anchor="middle" x="342" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*04.01.1978 &#160;+28.09.1978</text>
+</g>
+<!-- att32&#45;&gt;att33 -->
+<!-- g6p13 -->
+<g id="P_g6p13" class="node">
+<title>g6p13</title>
+<path fill="#dbeafe" stroke="#333333" d="M1070,-210.5C1070,-210.5 998,-210.5 998,-210.5 992,-210.5 986,-204.5 986,-198.5 986,-198.5 986,-186.5 986,-186.5 986,-180.5 992,-174.5 998,-174.5 998,-174.5 1070,-174.5 1070,-174.5 1076,-174.5 1082,-180.5 1082,-186.5 1082,-186.5 1082,-198.5 1082,-198.5 1082,-204.5 1076,-210.5 1070,-210.5"/>
+<text text-anchor="middle" x="1034" y="-190" font-family="DejaVu Sans" font-size="10.00">Jürgen Frühwirth</text>
+</g>
+<!-- att35 -->
+<g id="P_att35" class="node">
+<title>att35</title>
+<path fill="#fde7ef" stroke="#333333" d="M941.5,-213C941.5,-213 854.5,-213 854.5,-213 848.5,-213 842.5,-207 842.5,-201 842.5,-201 842.5,-184 842.5,-184 842.5,-178 848.5,-172 854.5,-172 854.5,-172 941.5,-172 941.5,-172 947.5,-172 953.5,-178 953.5,-184 953.5,-184 953.5,-201 953.5,-201 953.5,-207 947.5,-213 941.5,-213"/>
+<text text-anchor="middle" x="898" y="-201" font-family="DejaVu Sans" font-size="10.00">Henriette Frühwirth</text>
+<text text-anchor="middle" x="898" y="-190" font-family="DejaVu Sans" font-size="10.00">geb. Adelsberger</text>
+<text text-anchor="middle" x="898" y="-179" font-family="DejaVu Sans" font-size="10.00">*11.04.1984</text>
+</g>
+<!-- g6p13&#45;&gt;att35 -->
+<!-- g6p13&#45;&gt;att35 -->
+<!-- g6p13&#45;&gt;att35 -->
+<!-- M_g6F5 -->
+<g id="M_g6F5" class="node">
+<title>M_g6F5</title>
+<ellipse fill="#fff3b0" stroke="#b08900" cx="966" cy="-104" rx="27" ry="18"/>
+<text text-anchor="middle" x="966" y="-101.8" font-family="DejaVu Sans" font-size="9.00">oo</text>
+</g>
+<!-- g6p13&#45;&gt;M_g6F5 -->
+<g id="edge27" class="edge">
+<title>g6p13&#45;&gt;M_g6F5</title>
+<path fill="none" stroke="#555555" d="M1020.57,-174.41C1008.18,-158.65 989.96,-135.48 978.04,-120.32"/>
+</g>
+<!-- g6p02 -->
+<g id="P_g6p02" class="node">
+<title>g6p02</title>
+<path fill="#fde7ef" stroke="#333333" d="M372,-393.6C372,-393.6 282,-393.6 282,-393.6 276,-393.6 270,-387.6 270,-381.6 270,-381.6 270,-364.6 270,-364.6 270,-358.6 276,-352.6 282,-352.6 282,-352.6 372,-352.6 372,-352.6 378,-352.6 384,-358.6 384,-364.6 384,-364.6 384,-381.6 384,-381.6 384,-387.6 378,-393.6 372,-393.6"/>
+<text text-anchor="middle" x="327" y="-381.6" font-family="DejaVu Sans" font-size="10.00">Brigitta Adelsberger</text>
+<text text-anchor="middle" x="327" y="-370.6" font-family="DejaVu Sans" font-size="10.00">geb. Kofler</text>
+<text text-anchor="middle" x="327" y="-359.6" font-family="DejaVu Sans" font-size="10.00">*04.08.1945</text>
+</g>
+<!-- att07 -->
+<g id="P_att07" class="node">
+<title>att07</title>
+<path fill="#dbeafe" stroke="#333333" d="M660,-391.1C660,-391.1 574,-391.1 574,-391.1 568,-391.1 562,-385.1 562,-379.1 562,-379.1 562,-367.1 562,-367.1 562,-361.1 568,-355.1 574,-355.1 574,-355.1 660,-355.1 660,-355.1 666,-355.1 672,-361.1 672,-367.1 672,-367.1 672,-379.1 672,-379.1 672,-385.1 666,-391.1 660,-391.1"/>
+<text text-anchor="middle" x="617" y="-376.1" font-family="DejaVu Sans" font-size="10.00">Heimo Adelsberger</text>
+<text text-anchor="middle" x="617" y="-365.1" font-family="DejaVu Sans" font-size="10.00">*16.08.1948</text>
+</g>
+<!-- g6p02&#45;&gt;att07 -->
+<!-- att36 -->
+<g id="P_att36" class="node">
+<title>att36</title>
+<path fill="#dbeafe" stroke="#333333" d="M518,-391.1C518,-391.1 428,-391.1 428,-391.1 422,-391.1 416,-385.1 416,-379.1 416,-379.1 416,-367.1 416,-367.1 416,-361.1 422,-355.1 428,-355.1 428,-355.1 518,-355.1 518,-355.1 524,-355.1 530,-361.1 530,-367.1 530,-367.1 530,-379.1 530,-379.1 530,-385.1 524,-391.1 518,-391.1"/>
+<text text-anchor="middle" x="473" y="-376.1" font-family="DejaVu Sans" font-size="10.00">Helmut Adelsberger</text>
+<text text-anchor="middle" x="473" y="-365.1" font-family="DejaVu Sans" font-size="10.00">*29.06.1943</text>
+</g>
+<!-- g6p02&#45;&gt;att36 -->
+<!-- M_g6F1 -->
+<g id="M_g6F1" class="node">
+<title>M_g6F1</title>
+<ellipse fill="#fff3b0" stroke="#b08900" cx="342" cy="-282.8" rx="40.98" ry="18"/>
+<text text-anchor="middle" x="342" y="-280.6" font-family="DejaVu Sans" font-size="9.00">29.08.1969</text>
+</g>
+<!-- g6p02&#45;&gt;M_g6F1 -->
+<g id="edge19" class="edge">
+<title>g6p02&#45;&gt;M_g6F1</title>
+<path fill="none" stroke="#555555" d="M330.33,-352.5C332.95,-337.06 336.58,-315.73 339.09,-300.95"/>
+</g>
+<!-- att05 -->
+<g id="P_att05" class="node">
+<title>att05</title>
+<path fill="#dbeafe" stroke="#333333" d="M517,-568.1C517,-568.1 397,-568.1 397,-568.1 391,-568.1 385,-562.1 385,-556.1 385,-556.1 385,-544.1 385,-544.1 385,-538.1 391,-532.1 397,-532.1 397,-532.1 517,-532.1 517,-532.1 523,-532.1 529,-538.1 529,-544.1 529,-544.1 529,-556.1 529,-556.1 529,-562.1 523,-568.1 517,-568.1"/>
+<text text-anchor="middle" x="457" y="-553.1" font-family="DejaVu Sans" font-size="10.00">Herbert Adelsberger</text>
+<text text-anchor="middle" x="457" y="-542.1" font-family="DejaVu Sans" font-size="10.00">*01.11.1913 &#160;+12.09.2001</text>
+</g>
+<!-- att06 -->
+<g id="P_att06" class="node">
+<title>att06</title>
+<path fill="#fde7ef" stroke="#111111" stroke-width="1.8" d="M693,-570.6C693,-570.6 573,-570.6 573,-570.6 567,-570.6 561,-564.6 561,-558.6 561,-558.6 561,-541.6 561,-541.6 561,-535.6 567,-529.6 573,-529.6 573,-529.6 693,-529.6 693,-529.6 699,-529.6 705,-535.6 705,-541.6 705,-541.6 705,-558.6 705,-558.6 705,-564.6 699,-570.6 693,-570.6"/>
+<text text-anchor="middle" x="633" y="-558.6" font-family="DejaVu Sans" font-size="10.00">Helene Adelsberger</text>
+<text text-anchor="middle" x="633" y="-547.6" font-family="DejaVu Sans" font-size="10.00">geb. Polasek</text>
+<text text-anchor="middle" x="633" y="-536.6" font-family="DejaVu Sans" font-size="10.00">*05.03.1917 &#160;+24.05.2001</text>
+</g>
+<!-- att05&#45;&gt;att06 -->
+<!-- att05&#45;&gt;att06 -->
+<!-- M_attF2 -->
+<g id="M_attF2" class="node">
+<title>M_attF2</title>
+<ellipse fill="#fff3b0" stroke="#b08900" cx="545" cy="-461.6" rx="40.98" ry="18"/>
+<text text-anchor="middle" x="545" y="-459.4" font-family="DejaVu Sans" font-size="9.00">29.08.1942</text>
+</g>
+<!-- att05&#45;&gt;M_attF2 -->
+<g id="edge30" class="edge">
+<title>att05&#45;&gt;M_attF2</title>
+<path fill="none" stroke="#555555" d="M474.39,-532.01C490.31,-516.35 513.7,-493.37 529.13,-478.2"/>
+</g>
+<!-- att08 -->
+<g id="P_att08" class="node">
+<title>att08</title>
+<path fill="#fde7ef" stroke="#333333" d="M960.5,-393.6C960.5,-393.6 871.5,-393.6 871.5,-393.6 865.5,-393.6 859.5,-387.6 859.5,-381.6 859.5,-381.6 859.5,-364.6 859.5,-364.6 859.5,-358.6 865.5,-352.6 871.5,-352.6 871.5,-352.6 960.5,-352.6 960.5,-352.6 966.5,-352.6 972.5,-358.6 972.5,-364.6 972.5,-364.6 972.5,-381.6 972.5,-381.6 972.5,-387.6 966.5,-393.6 960.5,-393.6"/>
+<text text-anchor="middle" x="916" y="-381.6" font-family="DejaVu Sans" font-size="10.00">Renate Adelsberger</text>
+<text text-anchor="middle" x="916" y="-370.6" font-family="DejaVu Sans" font-size="10.00">geb. Rapatz</text>
+<text text-anchor="middle" x="916" y="-359.6" font-family="DejaVu Sans" font-size="10.00">*22.05.1960</text>
 </g>
 <!-- att07&#45;&gt;att08 -->
 <!-- att07&#45;&gt;att08 -->
+<!-- att14 -->
+<g id="P_att14" class="node">
+<title>att14</title>
+<path fill="#fde7ef" stroke="#333333" d="M815.5,-393.6C815.5,-393.6 716.5,-393.6 716.5,-393.6 710.5,-393.6 704.5,-387.6 704.5,-381.6 704.5,-381.6 704.5,-364.6 704.5,-364.6 704.5,-358.6 710.5,-352.6 716.5,-352.6 716.5,-352.6 815.5,-352.6 815.5,-352.6 821.5,-352.6 827.5,-358.6 827.5,-364.6 827.5,-364.6 827.5,-381.6 827.5,-381.6 827.5,-387.6 821.5,-393.6 815.5,-393.6"/>
+<text text-anchor="middle" x="766" y="-381.6" font-family="DejaVu Sans" font-size="10.00">Elisabeth Adelsberger</text>
+<text text-anchor="middle" x="766" y="-370.6" font-family="DejaVu Sans" font-size="10.00">geb. Prendinger</text>
+<text text-anchor="middle" x="766" y="-359.6" font-family="DejaVu Sans" font-size="10.00">*23.06.1953</text>
+</g>
 <!-- att07&#45;&gt;att14 -->
 <!-- att07&#45;&gt;att14 -->
 <!-- att07&#45;&gt;att14 -->
-<!-- att07&#45;&gt;M_attF3 -->
-<g id="edge2" class="edge">
-<title>att07&#45;&gt;M_attF3</title>
-<path fill="none" stroke="#555555" d="M611.3,-355.07C596.05,-339.04 573.38,-315.2 558.52,-299.59"/>
+<!-- M_attF5 -->
+<g id="M_attF5" class="node">
+<title>M_attF5</title>
+<ellipse fill="#fff3b0" stroke="#b08900" cx="755" cy="-282.8" rx="73.58" ry="19.6"/>
+<text text-anchor="middle" x="755" y="-285.6" font-family="DejaVu Sans" font-size="9.00">18.05.1974</text>
+<text text-anchor="middle" x="755" y="-275.6" font-family="DejaVu Sans" font-size="9.00">gesch. 17.05.1993</text>
 </g>
 <!-- att07&#45;&gt;M_attF5 -->
-<g id="edge30" class="edge">
+<g id="edge2" class="edge">
 <title>att07&#45;&gt;M_attF5</title>
-<path fill="none" stroke="#555555" d="M653.72,-355.07C677.5,-339.64 712.39,-316.98 736.43,-301.38"/>
+<path fill="none" stroke="#555555" d="M643.61,-355.07C667.73,-339.64 703.14,-316.98 727.53,-301.38"/>
+</g>
+<!-- M_attF3 -->
+<g id="M_attF3" class="node">
+<title>M_attF3</title>
+<ellipse fill="#fff3b0" stroke="#b08900" cx="911" cy="-282.8" rx="40.98" ry="18"/>
+<text text-anchor="middle" x="911" y="-280.6" font-family="DejaVu Sans" font-size="9.00">21.08.2020</text>
+</g>
+<!-- att07&#45;&gt;M_attF3 -->
+<g id="edge15" class="edge">
+<title>att07&#45;&gt;M_attF3</title>
+<path fill="none" stroke="#555555" d="M672.3,-355.49C732.85,-337.31 827.95,-308.74 877.87,-293.75"/>
 </g>
 <!-- att34&#45;&gt;g6p09 -->
 <!-- att34&#45;&gt;M_g6F2 -->
-<g id="edge40" class="edge">
+<g id="edge12" class="edge">
 <title>att34&#45;&gt;M_g6F2</title>
-<path fill="none" stroke="#555555" d="M491.98,-174.41C486.19,-159.25 477.79,-137.21 472.01,-122.05"/>
+<path fill="none" stroke="#555555" d="M466.8,-174.41C435.81,-157.97 389.59,-133.44 361.2,-118.37"/>
 </g>
-<!-- M_attF2&#45;&gt;att36 -->
-<g id="edge7" class="edge">
-<title>M_attF2&#45;&gt;att36</title>
-<path fill="none" stroke="#555555" d="M459.2,-446.7C436.48,-433.14 401.53,-412.3 374.91,-396.41"/>
-<polygon fill="#555555" stroke="#555555" points="376.61,-393.35 366.23,-391.24 373.02,-399.37 376.61,-393.35"/>
+<!-- att21 -->
+<g id="P_att21" class="node">
+<title>att21</title>
+<path fill="#dbeafe" stroke="#333333" d="M798,-210.5C798,-210.5 704,-210.5 704,-210.5 698,-210.5 692,-204.5 692,-198.5 692,-198.5 692,-186.5 692,-186.5 692,-180.5 698,-174.5 704,-174.5 704,-174.5 798,-174.5 798,-174.5 804,-174.5 810,-180.5 810,-186.5 810,-186.5 810,-198.5 810,-198.5 810,-204.5 804,-210.5 798,-210.5"/>
+<text text-anchor="middle" x="751" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Stephan Adelsberger</text>
+<text text-anchor="middle" x="751" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*30.08.1982</text>
 </g>
-<!-- M_attF2&#45;&gt;att07 -->
-<g id="edge8" class="edge">
-<title>M_attF2&#45;&gt;att07</title>
-<path fill="none" stroke="#555555" d="M505.8,-446.7C528.52,-433.14 563.47,-412.3 590.09,-396.41"/>
-<polygon fill="#555555" stroke="#555555" points="591.98,-399.37 598.77,-391.24 588.39,-393.35 591.98,-399.37"/>
+<!-- att21&#45;&gt;att35 -->
+<!-- attS02 -->
+<g id="P_attS02" class="node">
+<title>attS02</title>
+<path fill="#fde7ef" stroke="#333333" d="M648,-210.5C648,-210.5 596,-210.5 596,-210.5 590,-210.5 584,-204.5 584,-198.5 584,-198.5 584,-186.5 584,-186.5 584,-180.5 590,-174.5 596,-174.5 596,-174.5 648,-174.5 648,-174.5 654,-174.5 660,-180.5 660,-186.5 660,-186.5 660,-198.5 660,-198.5 660,-204.5 654,-210.5 648,-210.5"/>
+<text text-anchor="middle" x="622" y="-195.5" font-family="DejaVu Sans" font-size="10.00">Nina Novak</text>
+<text text-anchor="middle" x="622" y="-184.5" font-family="DejaVu Sans" font-size="10.00">*16.11.1989</text>
 </g>
-<!-- M_attF10&#45;&gt;att41 -->
+<!-- att21&#45;&gt;attS02 -->
+<!-- att21&#45;&gt;attS02 -->
+<!-- att21&#45;&gt;attS02 -->
+<!-- M_attF10 -->
+<g id="M_attF10" class="node">
+<title>M_attF10</title>
+<ellipse fill="#fff3b0" stroke="#b08900" cx="686" cy="-104" rx="27" ry="18"/>
+<text text-anchor="middle" x="686" y="-101.8" font-family="DejaVu Sans" font-size="9.00">oo</text>
+</g>
+<!-- att21&#45;&gt;M_attF10 -->
+<g id="edge39" class="edge">
+<title>att21&#45;&gt;M_attF10</title>
+<path fill="none" stroke="#555555" d="M738.16,-174.41C726.32,-158.65 708.9,-135.48 697.51,-120.32"/>
+</g>
+<!-- att35&#45;&gt;g6p13 -->
+<!-- att35&#45;&gt;M_g6F5 -->
+<g id="edge28" class="edge">
+<title>att35&#45;&gt;M_g6F5</title>
+<path fill="none" stroke="#555555" d="M913.43,-171.87C925.73,-156.22 942.72,-134.61 954.02,-120.25"/>
+</g>
+<!-- att08&#45;&gt;att07 -->
+<!-- att08&#45;&gt;M_attF3 -->
 <g id="edge16" class="edge">
-<title>M_attF10&#45;&gt;att41</title>
-<path fill="none" stroke="#555555" d="M654.5,-85.6C654.5,-74.26 654.5,-59.23 654.5,-46.32"/>
-<polygon fill="#555555" stroke="#555555" points="658,-46.1 654.5,-36.1 651,-46.1 658,-46.1"/>
+<title>att08&#45;&gt;M_attF3</title>
+<path fill="none" stroke="#555555" d="M914.89,-352.5C914.02,-337.06 912.81,-315.73 911.97,-300.95"/>
 </g>
-<!-- M_g6F1&#45;&gt;att33 -->
-<g id="edge21" class="edge">
-<title>M_g6F1&#45;&gt;att33</title>
-<path fill="none" stroke="#555555" d="M217.5,-264.77C217.5,-252.39 217.5,-235.37 217.5,-221.06"/>
-<polygon fill="#555555" stroke="#555555" points="221,-220.77 217.5,-210.77 214,-220.77 221,-220.77"/>
+<!-- att41 -->
+<g id="P_att41" class="node">
+<title>att41</title>
+<path fill="#fde7ef" stroke="#333333" d="M712,-36C712,-36 660,-36 660,-36 654,-36 648,-30 648,-24 648,-24 648,-12 648,-12 648,-6 654,0 660,0 660,0 712,0 712,0 718,0 724,-6 724,-12 724,-12 724,-24 724,-24 724,-30 718,-36 712,-36"/>
+<text text-anchor="middle" x="686" y="-21" font-family="DejaVu Sans" font-size="10.00">Lea Novak</text>
+<text text-anchor="middle" x="686" y="-10" font-family="DejaVu Sans" font-size="10.00">*28.05.2025</text>
+</g>
+<!-- g6p10 -->
+<g id="P_g6p10" class="node">
+<title>g6p10</title>
+<path fill="#fde7ef" stroke="#333333" d="M377.5,-36C377.5,-36 294.5,-36 294.5,-36 288.5,-36 282.5,-30 282.5,-24 282.5,-24 282.5,-12 282.5,-12 282.5,-6 288.5,0 294.5,0 294.5,0 377.5,0 377.5,0 383.5,0 389.5,-6 389.5,-12 389.5,-12 389.5,-24 389.5,-24 389.5,-30 383.5,-36 377.5,-36"/>
+<text text-anchor="middle" x="336" y="-21" font-family="DejaVu Sans" font-size="10.00">Romy Adelsberger</text>
+<text text-anchor="middle" x="336" y="-10" font-family="DejaVu Sans" font-size="10.00">*09.10.2018</text>
+</g>
+<!-- attS02&#45;&gt;att21 -->
+<!-- attS02&#45;&gt;att35 -->
+<!-- attS02&#45;&gt;M_attF10 -->
+<g id="edge40" class="edge">
+<title>attS02&#45;&gt;M_attF10</title>
+<path fill="none" stroke="#555555" d="M634.64,-174.41C646.23,-158.75 663.23,-135.77 674.46,-120.6"/>
+</g>
+<!-- att06&#45;&gt;att05 -->
+<!-- att06&#45;&gt;M_attF2 -->
+<g id="edge31" class="edge">
+<title>att06&#45;&gt;M_attF2</title>
+<path fill="none" stroke="#555555" d="M613.03,-529.47C597.31,-514.02 575.69,-492.76 561.07,-478.4"/>
+</g>
+<!-- att33&#45;&gt;att34 -->
+<!-- att36&#45;&gt;g6p02 -->
+<!-- att36&#45;&gt;g6p02 -->
+<!-- att36&#45;&gt;g6p02 -->
+<!-- att36&#45;&gt;att07 -->
+<!-- att36&#45;&gt;M_g6F1 -->
+<g id="edge18" class="edge">
+<title>att36&#45;&gt;M_g6F1</title>
+<path fill="none" stroke="#555555" d="M447.74,-355.07C423.36,-338.64 386.82,-314.01 363.71,-298.43"/>
+</g>
+<!-- att14&#45;&gt;att07 -->
+<!-- att14&#45;&gt;M_attF5 -->
+<g id="edge3" class="edge">
+<title>att14&#45;&gt;M_attF5</title>
+<path fill="none" stroke="#555555" d="M763.56,-352.5C761.71,-337.67 759.19,-317.41 757.36,-302.73"/>
+</g>
+<!-- M_attF5&#45;&gt;att21 -->
+<g id="edge4" class="edge">
+<title>M_attF5&#45;&gt;att21</title>
+<path fill="none" stroke="#555555" d="M754.13,-262.64C753.58,-250.39 752.85,-234.32 752.23,-220.75"/>
+<polygon fill="#555555" stroke="#555555" points="755.72,-220.36 751.77,-210.53 748.73,-220.68 755.72,-220.36"/>
+</g>
+<!-- M_attF5&#45;&gt;att35 -->
+<g id="edge5" class="edge">
+<title>M_attF5&#45;&gt;att35</title>
+<path fill="none" stroke="#555555" d="M783.25,-264.35C804.47,-251.25 833.83,-233.12 857.54,-218.48"/>
+<polygon fill="#555555" stroke="#555555" points="859.65,-221.29 866.32,-213.06 855.97,-215.34 859.65,-221.29"/>
+</g>
+<!-- M_g6F2&#45;&gt;g6p10 -->
+<g id="edge13" class="edge">
+<title>M_g6F2&#45;&gt;g6p10</title>
+<path fill="none" stroke="#555555" d="M336,-85.6C336,-74.26 336,-59.23 336,-46.32"/>
+<polygon fill="#555555" stroke="#555555" points="339.5,-46.1 336,-36.1 332.5,-46.1 339.5,-46.1"/>
 </g>
 <!-- M_g6F1&#45;&gt;att32 -->
 <g id="edge20" class="edge">
 <title>M_g6F1&#45;&gt;att32</title>
-<path fill="none" stroke="#555555" d="M192.7,-268.2C167.12,-254.17 126.82,-232.07 96.68,-215.54"/>
-<polygon fill="#555555" stroke="#555555" points="98.14,-212.34 87.69,-210.6 94.77,-218.48 98.14,-212.34"/>
+<path fill="none" stroke="#555555" d="M317.2,-268.2C291.62,-254.17 251.32,-232.07 221.18,-215.54"/>
+<polygon fill="#555555" stroke="#555555" points="222.64,-212.34 212.19,-210.6 219.27,-218.48 222.64,-212.34"/>
 </g>
 <!-- M_g6F1&#45;&gt;att34 -->
 <g id="edge22" class="edge">
 <title>M_g6F1&#45;&gt;att34</title>
-<path fill="none" stroke="#555555" d="M249.73,-271.67C294.91,-257.47 377.98,-231.37 435.63,-213.26"/>
-<polygon fill="#555555" stroke="#555555" points="436.87,-216.53 445.36,-210.2 434.78,-209.86 436.87,-216.53"/>
+<path fill="none" stroke="#555555" d="M366.19,-268.2C391.13,-254.17 430.43,-232.07 459.81,-215.54"/>
+<polygon fill="#555555" stroke="#555555" points="461.59,-218.56 468.59,-210.6 458.16,-212.45 461.59,-218.56"/>
 </g>
-<!-- M_attF5&#45;&gt;att21 -->
-<g id="edge32" class="edge">
-<title>M_attF5&#45;&gt;att21</title>
-<path fill="none" stroke="#555555" d="M760.68,-262.64C758.88,-250.39 756.51,-234.32 754.51,-220.75"/>
-<polygon fill="#555555" stroke="#555555" points="757.93,-219.92 753.01,-210.53 751,-220.94 757.93,-219.92"/>
+<!-- M_g6F1&#45;&gt;att33 -->
+<g id="edge21" class="edge">
+<title>M_g6F1&#45;&gt;att33</title>
+<path fill="none" stroke="#555555" d="M342,-264.77C342,-252.39 342,-235.37 342,-221.06"/>
+<polygon fill="#555555" stroke="#555555" points="345.5,-220.77 342,-210.77 338.5,-220.77 345.5,-220.77"/>
 </g>
-<!-- M_attF5&#45;&gt;att35 -->
+<!-- M_attF2&#45;&gt;att07 -->
 <g id="edge33" class="edge">
-<title>M_attF5&#45;&gt;att35</title>
-<path fill="none" stroke="#555555" d="M790.29,-264.14C809.98,-251.17 837.02,-233.35 859.02,-218.86"/>
-<polygon fill="#555555" stroke="#555555" points="861.06,-221.7 867.48,-213.28 857.21,-215.86 861.06,-221.7"/>
+<title>M_attF2&#45;&gt;att07</title>
+<path fill="none" stroke="#555555" d="M558.54,-444.33C569.2,-431.53 584.22,-413.48 596.37,-398.88"/>
+<polygon fill="#555555" stroke="#555555" points="599.07,-401.11 602.78,-391.18 593.69,-396.63 599.07,-401.11"/>
 </g>
-<!-- M_g6F2&#45;&gt;g6p10 -->
+<!-- M_attF2&#45;&gt;att36 -->
+<g id="edge32" class="edge">
+<title>M_attF2&#45;&gt;att36</title>
+<path fill="none" stroke="#555555" d="M531.46,-444.33C520.8,-431.53 505.78,-413.48 493.63,-398.88"/>
+<polygon fill="#555555" stroke="#555555" points="496.31,-396.63 487.22,-391.18 490.93,-401.11 496.31,-396.63"/>
+</g>
+<!-- M_attF10&#45;&gt;att41 -->
 <g id="edge41" class="edge">
-<title>M_g6F2&#45;&gt;g6p10</title>
-<path fill="none" stroke="#555555" d="M465.5,-85.6C465.5,-74.26 465.5,-59.23 465.5,-46.32"/>
-<polygon fill="#555555" stroke="#555555" points="469,-46.1 465.5,-36.1 462,-46.1 469,-46.1"/>
+<title>M_attF10&#45;&gt;att41</title>
+<path fill="none" stroke="#555555" d="M686,-85.6C686,-74.26 686,-59.23 686,-46.32"/>
+<polygon fill="#555555" stroke="#555555" points="689.5,-46.1 686,-36.1 682.5,-46.1 689.5,-46.1"/>
 </g>
 </g>
 </svg>

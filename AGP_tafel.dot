@@ -123,6 +123,20 @@ geb. Philip
 geb. N.N." fillcolor="#fde7ef" id=P_cza32]
 	cza33 [label="Johann Czernoch" fillcolor="#dbeafe" id=P_cza33]
 	cza34 [label="Anton Philip" fillcolor="#dbeafe" id=P_cza34]
+	cza36 [label="Petronila Polasek
+geb. Knezek
+*1834  +1902" fillcolor="#fde7ef" id=P_cza36]
+	cza35 [label="Josef Polasek
+*1839  +1888" fillcolor="#dbeafe" id=P_cza35]
+	cza37 [label="Robert Polasek" fillcolor="#dbeafe" id=P_cza37]
+	cza38 [label="Emil Polasek" fillcolor="#dbeafe" id=P_cza38]
+	cza39 [label="Albin Polasek
+*14.02.1879  +19.05.1965" fillcolor="#dbeafe" id=P_cza39]
+	cza40 [label="Josef Polasek" fillcolor="#dbeafe" id=P_cza40]
+	cza41 [label="Frantisek Polasek" fillcolor="#dbeafe" id=P_cza41]
+	cza42 [label="Jan Polasek" fillcolor="#dbeafe" id=P_cza42]
+	cza43 [label="Anna Polasek" fillcolor="#fde7ef" id=P_cza43]
+	cza44 [label="Rudolf Polasek" fillcolor="#dbeafe" id=P_cza44]
 	g2p07 [label="Elisabeth Polasek
 geb. Lackner
 *13.05.1973" fillcolor="#fde7ef" id=P_g2p07]
@@ -1542,16 +1556,28 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	cza06 -> M_czaF11 [dir=none minlen=1 weight=60]
 	subgraph kids_czaF11 {
 		rank=same
+		cza35
 		cza03
 	}
+	M_czaF11 -> cza35
 	M_czaF11 -> cza03
+	cza35 -> cza03 [constraint=true minlen=0 style=invis weight=1400]
+	subgraph pair_cza35 {
+		rank=same
+		cza35
+		cza36
+	}
+	cza35 -> cza36 [constraint=true minlen=0 style=invis weight=2600]
+	cza36 -> cza03 [constraint=true minlen=0 style=invis weight=2000]
 	subgraph pair_cza03 {
 		rank=same
 		cza03
 		cza04
 	}
 	cza03 -> cza04 [constraint=true minlen=0 style=invis weight=2600]
+	cza35 -> cza36 [constraint=true minlen=0 style=invis weight=300]
 	cza03 -> cza04 [constraint=true minlen=0 style=invis weight=300]
+	cza36 -> cza03 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF5 [label="28.01.1799" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF5 shape=ellipse style=filled]
 	subgraph rank_czaF5 {
 		rank=same
@@ -1832,6 +1858,48 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	}
 	cza31 -> cza32 [constraint=true minlen=0 style=invis weight=2600]
 	cza31 -> cza32 [constraint=true minlen=0 style=invis weight=300]
+	M_czaF18 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF18 shape=ellipse style=filled]
+	subgraph rank_czaF18 {
+		rank=same
+		cza35
+		cza36
+	}
+	cza35 -> cza36 [constraint=true minlen=0 style=invis weight=3600]
+	cza35 -> M_czaF18 [dir=none minlen=1 weight=60]
+	cza36 -> M_czaF18 [dir=none minlen=1 weight=60]
+	subgraph kids_czaF18 {
+		rank=same
+		cza39
+		cza37
+		cza38
+		cza40
+		cza41
+		cza42
+		cza43
+		cza44
+	}
+	M_czaF18 -> cza39
+	M_czaF18 -> cza37
+	M_czaF18 -> cza38
+	M_czaF18 -> cza40
+	M_czaF18 -> cza41
+	M_czaF18 -> cza42
+	M_czaF18 -> cza43
+	M_czaF18 -> cza44
+	cza39 -> cza37 [constraint=true minlen=0 style=invis weight=1400]
+	cza37 -> cza38 [constraint=true minlen=0 style=invis weight=1400]
+	cza38 -> cza40 [constraint=true minlen=0 style=invis weight=1400]
+	cza40 -> cza41 [constraint=true minlen=0 style=invis weight=1400]
+	cza41 -> cza42 [constraint=true minlen=0 style=invis weight=1400]
+	cza42 -> cza43 [constraint=true minlen=0 style=invis weight=1400]
+	cza43 -> cza44 [constraint=true minlen=0 style=invis weight=1400]
+	cza39 -> cza37 [constraint=true minlen=0 style=invis weight=300]
+	cza37 -> cza38 [constraint=true minlen=0 style=invis weight=300]
+	cza38 -> cza40 [constraint=true minlen=0 style=invis weight=300]
+	cza40 -> cza41 [constraint=true minlen=0 style=invis weight=300]
+	cza41 -> cza42 [constraint=true minlen=0 style=invis weight=300]
+	cza42 -> cza43 [constraint=true minlen=0 style=invis weight=300]
+	cza43 -> cza44 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF4 shape=ellipse style=filled]
 	subgraph rank_czaF4 {
 		rank=same
