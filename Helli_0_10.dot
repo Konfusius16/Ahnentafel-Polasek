@@ -4,44 +4,74 @@ digraph {
 	graph [fontname="DejaVu Sans" fontsize=12 label=Helli labelloc=t]
 	node [color="#333333" fontname="DejaVu Sans" fontsize=10 shape=box style="rounded,filled"]
 	edge [color="#555555" fontname="DejaVu Sans"]
-	g6p09 [label="Tat-Dat Nguyen
-*04.05.1972" fillcolor="#dbeafe" id=P_g6p09]
-	att32 [label="Gudrun Adelsberger
-*29.03.1974" fillcolor="#fde7ef" id=P_att32]
-	g6p13 [label="Jürgen Frühwirth" fillcolor="#dbeafe" id=P_g6p13]
+	att36 [label="Helmut Adelsberger
+*29.06.1943" fillcolor="#dbeafe" id=P_att36]
 	g6p02 [label="Brigitta Adelsberger
 geb. Kofler
 *04.08.1945" fillcolor="#fde7ef" id=P_g6p02]
-	att05 [label="Herbert Adelsberger
-*01.11.1913  +12.09.2001" fillcolor="#dbeafe" id=P_att05]
-	att07 [label="Heimo Adelsberger
-*16.08.1948" fillcolor="#dbeafe" id=P_att07]
-	att34 [label="Ingrid Adelsberger
-*02.01.1981" fillcolor="#fde7ef" id=P_att34]
-	att21 [label="Stephan Adelsberger
-*30.08.1982" fillcolor="#dbeafe" id=P_att21]
-	att35 [label="Henriette Frühwirth
-geb. Adelsberger
-*11.04.1984" fillcolor="#fde7ef" id=P_att35]
+	g6p13 [label="Jürgen Frühwirth" fillcolor="#dbeafe" id=P_g6p13]
 	att08 [label="Renate Adelsberger
 geb. Rapatz
 *22.05.1960" fillcolor="#fde7ef" id=P_att08]
+	att34 [label="Ingrid Adelsberger
+*02.01.1981" fillcolor="#fde7ef" id=P_att34]
+	att05 [label="Herbert Adelsberger
+*01.11.1913  +12.09.2001" fillcolor="#dbeafe" id=P_att05]
+	att33 [label="Sigrid Adelsberger
+*04.01.1978  +28.09.1978" fillcolor="#fde7ef" id=P_att33]
+	att21 [label="Stephan Adelsberger
+*30.08.1982" fillcolor="#dbeafe" id=P_att21]
 	att41 [label="Lea Novak
 *28.05.2025" fillcolor="#fde7ef" id=P_att41]
-	g6p10 [label="Romy Adelsberger
-*09.10.2018" fillcolor="#fde7ef" id=P_g6p10]
-	attS02 [label="Nina Novak
-*16.11.1989" fillcolor="#fde7ef" id=P_attS02]
 	att06 [label="Helene Adelsberger
 geb. Polasek
 *05.03.1917  +24.05.2001" color="#111111" fillcolor="#fde7ef" id=P_att06 penwidth=1.8]
-	att33 [label="Sigrid Adelsberger
-*04.01.1978  +28.09.1978" fillcolor="#fde7ef" id=P_att33]
-	att36 [label="Helmut Adelsberger
-*29.06.1943" fillcolor="#dbeafe" id=P_att36]
+	att35 [label="Henriette Frühwirth
+geb. Adelsberger
+*11.04.1984" fillcolor="#fde7ef" id=P_att35]
+	g6p10 [label="Romy Adelsberger
+*09.10.2018" fillcolor="#fde7ef" id=P_g6p10]
+	g6p09 [label="Tat-Dat Nguyen
+*04.05.1972" fillcolor="#dbeafe" id=P_g6p09]
+	attS02 [label="Nina Novak
+*16.11.1989" fillcolor="#fde7ef" id=P_attS02]
 	att14 [label="Elisabeth Adelsberger
 geb. Prendinger
 *23.06.1953" fillcolor="#fde7ef" id=P_att14]
+	att32 [label="Gudrun Adelsberger
+*29.03.1974" fillcolor="#fde7ef" id=P_att32]
+	att07 [label="Heimo Adelsberger
+*16.08.1948" fillcolor="#dbeafe" id=P_att07]
+	M_attF2 [label="29.08.1942" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF2 shape=ellipse style=filled]
+	subgraph rank_attF2 {
+		rank=same
+		att05
+		att06
+	}
+	att05 -> att06 [constraint=true minlen=0 style=invis weight=3600]
+	att05 -> M_attF2 [dir=none minlen=1 weight=60]
+	att06 -> M_attF2 [dir=none minlen=1 weight=60]
+	subgraph kids_attF2 {
+		rank=same
+		att36
+		att07
+	}
+	M_attF2 -> att36
+	M_attF2 -> att07
+	att36 -> att07 [constraint=true minlen=0 style=invis weight=1400]
+	subgraph pair_att36 {
+		rank=same
+		att36
+		g6p02
+	}
+	att36 -> g6p02 [constraint=true minlen=0 style=invis weight=2600]
+	g6p02 -> att07 [constraint=true minlen=0 style=invis weight=2000]
+	subgraph pair_att07 {
+		rank=same
+		att07
+		att14
+	}
+	att07 -> att14 [constraint=true minlen=0 style=invis weight=2600]
 	M_attF5 [label="18.05.1974
 gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 shape=ellipse style=filled]
 	subgraph rank_attF5 {
@@ -73,20 +103,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		g6p13
 	}
 	g6p13 -> att35 [constraint=true minlen=0 style=invis weight=2600]
-	M_g6F2 [label="27.06.2015" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g6F2 shape=ellipse style=filled]
-	subgraph rank_g6F2 {
-		rank=same
-		g6p09
-		att34
-	}
-	g6p09 -> att34 [constraint=true minlen=0 style=invis weight=3600]
-	g6p09 -> M_g6F2 [dir=none minlen=1 weight=60]
-	att34 -> M_g6F2 [dir=none minlen=1 weight=60]
-	subgraph kids_g6F2 {
-		rank=same
-		g6p10
-	}
-	M_g6F2 -> g6p10
 	M_attF3 [label="21.08.2020" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF3 shape=ellipse style=filled]
 	subgraph rank_attF3 {
 		rank=same
@@ -96,6 +112,29 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	att07 -> att08 [constraint=true minlen=0 style=invis weight=3600]
 	att07 -> M_attF3 [dir=none minlen=1 weight=60]
 	att08 -> M_attF3 [dir=none minlen=1 weight=60]
+	M_g6F5 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g6F5 shape=ellipse style=filled]
+	subgraph rank_g6F5 {
+		rank=same
+		g6p13
+		att35
+	}
+	g6p13 -> att35 [constraint=true minlen=0 style=invis weight=3600]
+	g6p13 -> M_g6F5 [dir=none minlen=1 weight=60]
+	att35 -> M_g6F5 [dir=none minlen=1 weight=60]
+	M_attF10 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF10 shape=ellipse style=filled]
+	subgraph rank_attF10 {
+		rank=same
+		att21
+		attS02
+	}
+	att21 -> attS02 [constraint=true minlen=0 style=invis weight=3600]
+	att21 -> M_attF10 [dir=none minlen=1 weight=60]
+	attS02 -> M_attF10 [dir=none minlen=1 weight=60]
+	subgraph kids_attF10 {
+		rank=same
+		att41
+	}
+	M_attF10 -> att41
 	M_g6F1 [label="29.08.1969" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g6F1 shape=ellipse style=filled]
 	subgraph rank_g6F1 {
 		rank=same
@@ -122,59 +161,20 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		g6p09
 	}
 	g6p09 -> att34 [constraint=true minlen=0 style=invis weight=2600]
-	M_g6F5 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g6F5 shape=ellipse style=filled]
-	subgraph rank_g6F5 {
+	M_g6F2 [label="27.06.2015" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g6F2 shape=ellipse style=filled]
+	subgraph rank_g6F2 {
 		rank=same
-		g6p13
-		att35
+		g6p09
+		att34
 	}
-	g6p13 -> att35 [constraint=true minlen=0 style=invis weight=3600]
-	g6p13 -> M_g6F5 [dir=none minlen=1 weight=60]
-	att35 -> M_g6F5 [dir=none minlen=1 weight=60]
-	M_attF2 [label="29.08.1942" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF2 shape=ellipse style=filled]
-	subgraph rank_attF2 {
+	g6p09 -> att34 [constraint=true minlen=0 style=invis weight=3600]
+	g6p09 -> M_g6F2 [dir=none minlen=1 weight=60]
+	att34 -> M_g6F2 [dir=none minlen=1 weight=60]
+	subgraph kids_g6F2 {
 		rank=same
-		att05
-		att06
+		g6p10
 	}
-	att05 -> att06 [constraint=true minlen=0 style=invis weight=3600]
-	att05 -> M_attF2 [dir=none minlen=1 weight=60]
-	att06 -> M_attF2 [dir=none minlen=1 weight=60]
-	subgraph kids_attF2 {
-		rank=same
-		att36
-		att07
-	}
-	M_attF2 -> att36
-	M_attF2 -> att07
-	att36 -> att07 [constraint=true minlen=0 style=invis weight=1400]
-	subgraph pair_att36 {
-		rank=same
-		att36
-		g6p02
-	}
-	att36 -> g6p02 [constraint=true minlen=0 style=invis weight=2600]
-	g6p02 -> att07 [constraint=true minlen=0 style=invis weight=2000]
-	subgraph pair_att07 {
-		rank=same
-		att07
-		att14
-	}
-	att07 -> att14 [constraint=true minlen=0 style=invis weight=2600]
-	M_attF10 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF10 shape=ellipse style=filled]
-	subgraph rank_attF10 {
-		rank=same
-		att21
-		attS02
-	}
-	att21 -> attS02 [constraint=true minlen=0 style=invis weight=3600]
-	att21 -> M_attF10 [dir=none minlen=1 weight=60]
-	attS02 -> M_attF10 [dir=none minlen=1 weight=60]
-	subgraph kids_attF10 {
-		rank=same
-		att41
-	}
-	M_attF10 -> att41
+	M_g6F2 -> g6p10
 	subgraph gen_0 {
 		rank=same
 		att06
