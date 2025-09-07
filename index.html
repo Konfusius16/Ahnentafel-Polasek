@@ -1,42 +1,188 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Downloads</title>
-  <style>
-:root { --fg:#111; --muted:#666; --bg:#fafafa; --card:#fff; --br:14px; }
-body { margin:0; font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--fg); background:var(--bg); }
-.wrap { max-width:980px; margin:32px auto; padding:0 16px; }
-h1 { margin:0 0 8px; }
-p.note { color:var(--muted); margin:0 0 24px; }
-ul.files { list-style:none; padding:0; margin:0 0 28px; }
-ul.files li { background:var(--card); border-radius:var(--br); padding:14px 16px; margin:10px 0; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:10px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
-.meta { color:var(--muted); font-size:13px; }
-.name { font-weight:600; }
-.actions a { margin-left:12px; text-decoration:none; }
-.actions a:first-child { margin-left:0; }
-.preview { background:var(--card); border-radius:var(--br); padding:16px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
-img.preview-img { max-width:100%; height:auto; display:block; border-radius:12px; }
-details { background:var(--card); border-radius:var(--br); padding:10px 12px; margin-top:12px; box-shadow:0 1px 4px rgba(0,0,0,.06); }
-details > summary { cursor:pointer; font-weight:600; }
-iframe.txt { width:100%; height:60vh; border:0; border-radius:10px; margin-top:10px; background:#fff; }
-object.pdf { width:100%; height:75vh; border:0; border-radius:10px; }
-footer { color:var(--muted); font-size:13px; margin-top:28px; text-align:center; }
-@media (prefers-color-scheme: dark) {
-  :root { --fg:#eee; --muted:#aaa; --bg:#0d0f12; --card:#14171c; }
-  a { color:#8ab4ff; }
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Downloads</title>
+<style>
+:root{
+  --bg:#0b1118; --card:#0f1720; --fg:#e6eef7; --muted:#8aa0b7;
+  --accent:#5bbcff; --accent2:#9ee493; --br:16px;
 }
-  </style>
+*{box-sizing:border-box}
+body{margin:0; font:15px/1.6 ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial; color:var(--fg); background:linear-gradient(180deg,#0a1016,#0c121a 40%,#0b1118)}
+.container{max-width:1080px; margin:36px auto; padding:0 16px}
+h1{margin:0 0 10px; font-weight:800; letter-spacing:.2px}
+.lead{color:var(--muted); margin:0 0 24px}
+.card{background:linear-gradient(180deg,#101925,#0f1720); border:1px solid rgba(255,255,255,.06); border-radius:var(--br); box-shadow:0 10px 30px rgba(0,0,0,.35);}
+.section{padding:18px 18px 6px; margin-bottom:18px}
+.group{display:flex; align-items:center; justify-content:space-between; gap:14px; padding:12px 14px; margin:10px 0; border-radius:12px; background:rgba(255,255,255,.02); border:1px solid rgba(255,255,255,.05)}
+.group .name{font-weight:700}
+.meta{color:var(--muted); font-size:13px}
+.formats{display:flex; gap:10px; align-items:center}
+.format{display:flex; align-items:center; gap:6px; padding:6px 10px; border-radius:999px; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.12)}
+.format input{accent-color:var(--accent)}
+.actions a{display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border-radius:10px; text-decoration:none; border:1px solid rgba(255,255,255,.14); color:var(--fg)}
+.actions a.primary{background:linear-gradient(180deg,#198bff,#0d6efd); border-color:transparent}
+.actions{display:flex; gap:10px; flex-wrap:wrap}
+h2{margin:6px 0 10px}
+.details{padding:10px 14px; background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.07); border-radius:12px; margin:8px 0 16px}
+details>summary{cursor:pointer; font-weight:600}
+footer{color:var(--muted); text-align:center; padding:20px 0 40px}
+.badge{display:inline-block; padding:2px 8px; border-radius:999px; background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.2); font-size:12px; margin-left:8px}
+hr.sep{border:0; height:1px; background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent); margin:18px 0}
+a:hover{color:#bfe2ff}
+.tooltip{border-bottom:1px dotted var(--muted)}
+</style>
+<script>
+function applyChoice(stem, format){
+  const aView = document.getElementById('view-'+stem);
+  const aDl   = document.getElementById('dl-'+stem);
+  const base  = document.getElementById('base-'+stem).dataset.base;
+  const href  = base + '.' + format;
+  aView.href = href; aDl.href = href;
+  aView.dataset.ext = format; aDl.dataset.ext = format;
+}
+function initDefaults(){
+  for (const wrap of document.querySelectorAll('[data-stem]')){
+    const stem = wrap.dataset.stem;
+    const first = wrap.querySelector('input[type=radio]');
+    if (first){ first.checked = true; applyChoice(stem, first.value); }
+  }
+}
+document.addEventListener('DOMContentLoaded', initDefaults);
+</script>
 </head>
 <body>
-  <div class="wrap">
-    <h1>Downloads</h1>
-    <p class="note">Ansehen im Browser oder direkt herunterladen. Diese Seite wurde automatisch erzeugt.</p>
-    <ul class="files">
-<li><div><div class="name">AGP_tafel.dot</div><div class="meta">72.2 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./AGP_tafel.dot">ansehen</a><a href="./AGP_tafel.dot" download>download</a></div></li><li><div><div class="name">AGP_tafel.pdf</div><div class="meta">62.4 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./AGP_tafel.pdf">ansehen</a><a href="./AGP_tafel.pdf" download>download</a></div></li><li><div><div class="name">AGP_tafel.png</div><div class="meta">1.0 MB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./AGP_tafel.png">ansehen</a><a href="./AGP_tafel.png" download>download</a></div></li><li><div><div class="name">AGP_tafel.svg</div><div class="meta">255.2 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./AGP_tafel.svg">ansehen</a><a href="./AGP_tafel.svg" download>download</a></div></li><li><div><div class="name">Albin_0_4.dot</div><div class="meta">14.4 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Albin_0_4.dot">ansehen</a><a href="./Albin_0_4.dot" download>download</a></div></li><li><div><div class="name">Albin_0_4.pdf</div><div class="meta">23.1 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Albin_0_4.pdf">ansehen</a><a href="./Albin_0_4.pdf" download>download</a></div></li><li><div><div class="name">Albin_0_4.png</div><div class="meta">314.9 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Albin_0_4.png">ansehen</a><a href="./Albin_0_4.png" download>download</a></div></li><li><div><div class="name">Albin_0_4.svg</div><div class="meta">56.5 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Albin_0_4.svg">ansehen</a><a href="./Albin_0_4.svg" download>download</a></div></li><li><div><div class="name">git-save.sh</div><div class="meta">332 B · geändert: 2025-08-28 05:13</div></div><div class="actions"><a href="./git-save.sh">ansehen</a><a href="./git-save.sh" download>download</a></div></li><li><div><div class="name">Helli_0_10.dot</div><div class="meta">6.6 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Helli_0_10.dot">ansehen</a><a href="./Helli_0_10.dot" download>download</a></div></li><li><div><div class="name">Helli_0_10.pdf</div><div class="meta">19.4 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Helli_0_10.pdf">ansehen</a><a href="./Helli_0_10.pdf" download>download</a></div></li><li><div><div class="name">Helli_0_10.png</div><div class="meta">119.9 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Helli_0_10.png">ansehen</a><a href="./Helli_0_10.png" download>download</a></div></li><li><div><div class="name">Helli_0_10.svg</div><div class="meta">21.5 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Helli_0_10.svg">ansehen</a><a href="./Helli_0_10.svg" download>download</a></div></li><li><div><div class="name">Herbert_20_20.dot</div><div class="meta">24.8 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Herbert_20_20.dot">ansehen</a><a href="./Herbert_20_20.dot" download>download</a></div></li><li><div><div class="name">Herbert_20_20.pdf</div><div class="meta">32.4 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Herbert_20_20.pdf">ansehen</a><a href="./Herbert_20_20.pdf" download>download</a></div></li><li><div><div class="name">Herbert_20_20.png</div><div class="meta">485.2 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Herbert_20_20.png">ansehen</a><a href="./Herbert_20_20.png" download>download</a></div></li><li><div><div class="name">Herbert_20_20.svg</div><div class="meta">82.1 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Herbert_20_20.svg">ansehen</a><a href="./Herbert_20_20.svg" download>download</a></div></li><li><div><div class="name">index.html.sa1</div><div class="meta">3.6 KB · geändert: 2025-08-23 13:56</div></div><div class="actions"><a href="./index.html.sa1">ansehen</a><a href="./index.html.sa1" download>download</a></div></li><li><div><div class="name">Otto_0_10.dot</div><div class="meta">12.7 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Otto_0_10.dot">ansehen</a><a href="./Otto_0_10.dot" download>download</a></div></li><li><div><div class="name">Otto_0_10.pdf</div><div class="meta">21.3 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Otto_0_10.pdf">ansehen</a><a href="./Otto_0_10.pdf" download>download</a></div></li><li><div><div class="name">Otto_0_10.png</div><div class="meta">198.3 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Otto_0_10.png">ansehen</a><a href="./Otto_0_10.png" download>download</a></div></li><li><div><div class="name">Otto_0_10.svg</div><div class="meta">44.2 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Otto_0_10.svg">ansehen</a><a href="./Otto_0_10.svg" download>download</a></div></li><li><div><div class="name">Rosi_0_10.dot</div><div class="meta">8.8 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Rosi_0_10.dot">ansehen</a><a href="./Rosi_0_10.dot" download>download</a></div></li><li><div><div class="name">Rosi_0_10.pdf</div><div class="meta">21.7 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Rosi_0_10.pdf">ansehen</a><a href="./Rosi_0_10.pdf" download>download</a></div></li><li><div><div class="name">Rosi_0_10.png</div><div class="meta">163.0 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Rosi_0_10.png">ansehen</a><a href="./Rosi_0_10.png" download>download</a></div></li><li><div><div class="name">Rosi_0_10.svg</div><div class="meta">29.5 KB · geändert: 2025-09-06 13:26</div></div><div class="actions"><a href="./Rosi_0_10.svg">ansehen</a><a href="./Rosi_0_10.svg" download>download</a></div></li>
-    </ul>
-<details><summary>Text-Vorschau: AGP_tafel.dot</summary><iframe class="txt" src="./AGP_tafel.dot"></iframe></details><div class="preview"><h2>PDF-Vorschau: AGP_tafel.pdf</h2><object class="pdf" data="./AGP_tafel.pdf" type="application/pdf"><p><a href="./AGP_tafel.pdf">PDF öffnen</a></p></object></div><div class="preview"><h2>Bild-Vorschau: AGP_tafel.png</h2><img class="preview-img" src="./AGP_tafel.png" alt="AGP_tafel.png" /></div><div class="preview"><h2>Bild-Vorschau: AGP_tafel.svg</h2><img class="preview-img" src="./AGP_tafel.svg" alt="AGP_tafel.svg" /></div><details><summary>Text-Vorschau: Albin_0_4.dot</summary><iframe class="txt" src="./Albin_0_4.dot"></iframe></details><div class="preview"><h2>PDF-Vorschau: Albin_0_4.pdf</h2><object class="pdf" data="./Albin_0_4.pdf" type="application/pdf"><p><a href="./Albin_0_4.pdf">PDF öffnen</a></p></object></div><div class="preview"><h2>Bild-Vorschau: Albin_0_4.png</h2><img class="preview-img" src="./Albin_0_4.png" alt="Albin_0_4.png" /></div><div class="preview"><h2>Bild-Vorschau: Albin_0_4.svg</h2><img class="preview-img" src="./Albin_0_4.svg" alt="Albin_0_4.svg" /></div><details><summary>Text-Vorschau: git-save.sh</summary><iframe class="txt" src="./git-save.sh"></iframe></details><details><summary>Text-Vorschau: Helli_0_10.dot</summary><iframe class="txt" src="./Helli_0_10.dot"></iframe></details><div class="preview"><h2>PDF-Vorschau: Helli_0_10.pdf</h2><object class="pdf" data="./Helli_0_10.pdf" type="application/pdf"><p><a href="./Helli_0_10.pdf">PDF öffnen</a></p></object></div><div class="preview"><h2>Bild-Vorschau: Helli_0_10.png</h2><img class="preview-img" src="./Helli_0_10.png" alt="Helli_0_10.png" /></div><div class="preview"><h2>Bild-Vorschau: Helli_0_10.svg</h2><img class="preview-img" src="./Helli_0_10.svg" alt="Helli_0_10.svg" /></div><details><summary>Text-Vorschau: Herbert_20_20.dot</summary><iframe class="txt" src="./Herbert_20_20.dot"></iframe></details><div class="preview"><h2>PDF-Vorschau: Herbert_20_20.pdf</h2><object class="pdf" data="./Herbert_20_20.pdf" type="application/pdf"><p><a href="./Herbert_20_20.pdf">PDF öffnen</a></p></object></div><div class="preview"><h2>Bild-Vorschau: Herbert_20_20.png</h2><img class="preview-img" src="./Herbert_20_20.png" alt="Herbert_20_20.png" /></div><div class="preview"><h2>Bild-Vorschau: Herbert_20_20.svg</h2><img class="preview-img" src="./Herbert_20_20.svg" alt="Herbert_20_20.svg" /></div><details><summary>Text-Vorschau: Otto_0_10.dot</summary><iframe class="txt" src="./Otto_0_10.dot"></iframe></details><div class="preview"><h2>PDF-Vorschau: Otto_0_10.pdf</h2><object class="pdf" data="./Otto_0_10.pdf" type="application/pdf"><p><a href="./Otto_0_10.pdf">PDF öffnen</a></p></object></div><div class="preview"><h2>Bild-Vorschau: Otto_0_10.png</h2><img class="preview-img" src="./Otto_0_10.png" alt="Otto_0_10.png" /></div><div class="preview"><h2>Bild-Vorschau: Otto_0_10.svg</h2><img class="preview-img" src="./Otto_0_10.svg" alt="Otto_0_10.svg" /></div><details><summary>Text-Vorschau: Rosi_0_10.dot</summary><iframe class="txt" src="./Rosi_0_10.dot"></iframe></details><div class="preview"><h2>PDF-Vorschau: Rosi_0_10.pdf</h2><object class="pdf" data="./Rosi_0_10.pdf" type="application/pdf"><p><a href="./Rosi_0_10.pdf">PDF öffnen</a></p></object></div><div class="preview"><h2>Bild-Vorschau: Rosi_0_10.png</h2><img class="preview-img" src="./Rosi_0_10.png" alt="Rosi_0_10.png" /></div><div class="preview"><h2>Bild-Vorschau: Rosi_0_10.svg</h2><img class="preview-img" src="./Rosi_0_10.svg" alt="Rosi_0_10.svg" /></div>    <footer>Generiert am 2025-09-06 13:36 · 26 Dateien</footer>
+<div class="container">
+  <h1>Downloads</h1>
+  <p class="lead">Wähle oben das gewünschte Format (PDF/SVG/PNG). Unten findest du Unterlagen mit Beschreibungstext.</p>
+
+  <div class="section card">
+    <h2 style="padding:8px 12px 0;">Dateien im Hauptverzeichnis</h2>
+<div class="group card" data-stem="AGP_tafel">  <div class="name" id="base-AGP_tafel" data-base="AGP_tafel">AGP_tafel</div>  <div class="formats"><label class="format"><input type="radio" name="fmt-AGP_tafel" onchange="applyChoice('AGP_tafel', 'pdf')" value="pdf" /> PDF <span class="meta">62.4 KB</span></label><label class="format"><input type="radio" name="fmt-AGP_tafel" onchange="applyChoice('AGP_tafel', 'svg')" value="svg" /> SVG <span class="meta">255.2 KB</span></label><label class="format"><input type="radio" name="fmt-AGP_tafel" onchange="applyChoice('AGP_tafel', 'png')" value="png" /> PNG <span class="meta">1.0 MB</span></label></div>  <div class="actions">    <a id="view-AGP_tafel" class="primary" href="AGP_tafel.pdf" target="_blank" rel="noopener">Ansehen</a>    <a id="dl-AGP_tafel" href="AGP_tafel.pdf" download>Download</a>  </div></div><div class="group card" data-stem="Albin_0_4">  <div class="name" id="base-Albin_0_4" data-base="Albin_0_4">Albin_0_4</div>  <div class="formats"><label class="format"><input type="radio" name="fmt-Albin_0_4" onchange="applyChoice('Albin_0_4', 'pdf')" value="pdf" /> PDF <span class="meta">23.1 KB</span></label><label class="format"><input type="radio" name="fmt-Albin_0_4" onchange="applyChoice('Albin_0_4', 'svg')" value="svg" /> SVG <span class="meta">56.5 KB</span></label><label class="format"><input type="radio" name="fmt-Albin_0_4" onchange="applyChoice('Albin_0_4', 'png')" value="png" /> PNG <span class="meta">314.9 KB</span></label></div>  <div class="actions">    <a id="view-Albin_0_4" class="primary" href="Albin_0_4.pdf" target="_blank" rel="noopener">Ansehen</a>    <a id="dl-Albin_0_4" href="Albin_0_4.pdf" download>Download</a>  </div></div><div class="group card" data-stem="Helli_0_10">  <div class="name" id="base-Helli_0_10" data-base="Helli_0_10">Helli_0_10</div>  <div class="formats"><label class="format"><input type="radio" name="fmt-Helli_0_10" onchange="applyChoice('Helli_0_10', 'pdf')" value="pdf" /> PDF <span class="meta">19.4 KB</span></label><label class="format"><input type="radio" name="fmt-Helli_0_10" onchange="applyChoice('Helli_0_10', 'svg')" value="svg" /> SVG <span class="meta">21.5 KB</span></label><label class="format"><input type="radio" name="fmt-Helli_0_10" onchange="applyChoice('Helli_0_10', 'png')" value="png" /> PNG <span class="meta">119.9 KB</span></label></div>  <div class="actions">    <a id="view-Helli_0_10" class="primary" href="Helli_0_10.pdf" target="_blank" rel="noopener">Ansehen</a>    <a id="dl-Helli_0_10" href="Helli_0_10.pdf" download>Download</a>  </div></div><div class="group card" data-stem="Herbert_20_20">  <div class="name" id="base-Herbert_20_20" data-base="Herbert_20_20">Herbert_20_20</div>  <div class="formats"><label class="format"><input type="radio" name="fmt-Herbert_20_20" onchange="applyChoice('Herbert_20_20', 'pdf')" value="pdf" /> PDF <span class="meta">32.4 KB</span></label><label class="format"><input type="radio" name="fmt-Herbert_20_20" onchange="applyChoice('Herbert_20_20', 'svg')" value="svg" /> SVG <span class="meta">82.1 KB</span></label><label class="format"><input type="radio" name="fmt-Herbert_20_20" onchange="applyChoice('Herbert_20_20', 'png')" value="png" /> PNG <span class="meta">485.2 KB</span></label></div>  <div class="actions">    <a id="view-Herbert_20_20" class="primary" href="Herbert_20_20.pdf" target="_blank" rel="noopener">Ansehen</a>    <a id="dl-Herbert_20_20" href="Herbert_20_20.pdf" download>Download</a>  </div></div><div class="group card" data-stem="Otto_0_10">  <div class="name" id="base-Otto_0_10" data-base="Otto_0_10">Otto_0_10</div>  <div class="formats"><label class="format"><input type="radio" name="fmt-Otto_0_10" onchange="applyChoice('Otto_0_10', 'pdf')" value="pdf" /> PDF <span class="meta">21.3 KB</span></label><label class="format"><input type="radio" name="fmt-Otto_0_10" onchange="applyChoice('Otto_0_10', 'svg')" value="svg" /> SVG <span class="meta">44.2 KB</span></label><label class="format"><input type="radio" name="fmt-Otto_0_10" onchange="applyChoice('Otto_0_10', 'png')" value="png" /> PNG <span class="meta">198.3 KB</span></label></div>  <div class="actions">    <a id="view-Otto_0_10" class="primary" href="Otto_0_10.pdf" target="_blank" rel="noopener">Ansehen</a>    <a id="dl-Otto_0_10" href="Otto_0_10.pdf" download>Download</a>  </div></div><div class="group card" data-stem="Rosi_0_10">  <div class="name" id="base-Rosi_0_10" data-base="Rosi_0_10">Rosi_0_10</div>  <div class="formats"><label class="format"><input type="radio" name="fmt-Rosi_0_10" onchange="applyChoice('Rosi_0_10', 'pdf')" value="pdf" /> PDF <span class="meta">21.7 KB</span></label><label class="format"><input type="radio" name="fmt-Rosi_0_10" onchange="applyChoice('Rosi_0_10', 'svg')" value="svg" /> SVG <span class="meta">29.5 KB</span></label><label class="format"><input type="radio" name="fmt-Rosi_0_10" onchange="applyChoice('Rosi_0_10', 'png')" value="png" /> PNG <span class="meta">163.0 KB</span></label></div>  <div class="actions">    <a id="view-Rosi_0_10" class="primary" href="Rosi_0_10.pdf" target="_blank" rel="noopener">Ansehen</a>    <a id="dl-Rosi_0_10" href="Rosi_0_10.pdf" download>Download</a>  </div></div>
   </div>
+  <hr class="sep"/>
+  <div class="section card">
+    <h2 style="padding:8px 12px 0;">Unterlagen</h2>
+<div class="group card">  <div class="name"><a href="Unterlagen/HochzeitsbildSuchyHelene.png" download title="Helene Dobrössy (*16.8.1927; gleicher Geburtstag wie Heimo A.!) ist die Tochter von Paul Döbrössy und daher Cousine meiner Mutter Helli A.
+
+Abgesehen vom skurrillen Fakt, dass die drei Suchy-Brüder am gleichen Tag geheirtatet haben: die Suchy&#x27;s haben an der Adresse Wildweg 11, 1170 gewohnt, also im " class="tooltip">HochzeitsbildSuchyHelene.png</a>    <span class="badge">1.9 MB</span>  </div>  <div class="actions"><a class="primary" href="Unterlagen/HochzeitsbildSuchyHelene.png" target="_blank" rel="noopener">Ansehen</a>  <a href="Unterlagen/HochzeitsbildSuchyHelene.png" download>Download</a></div></div><div class="details"><details><summary>Beschreibung einblenden</summary><div style="white-space:pre-wrap;margin-top:8px;color:var(--muted)">Helene Dobrössy (*16.8.1927; gleicher Geburtstag wie Heimo A.!) ist die Tochter von Paul Döbrössy und daher Cousine meiner Mutter Helli A.
+
+Abgesehen vom skurrillen Fakt, dass die drei Suchy-Brüder am gleichen Tag geheirtatet haben: die Suchy&#x27;s haben an der Adresse Wildweg 11, 1170 gewohnt, also im Haus genau nebenan von meiner jetzigen Adresse Wildweg 9, 1170.
+
+Heimo Adelsberger</div></details></div><div class="group card">  <div class="name"><a href="Unterlagen/Motorrad2.png" download title="Helene (Hella) Döbrössy (*19.04.1889  +20.03.1971) war sehr unternehmungslustig. Hier mit einer Freundin unterwegs (vermutlich nach Italien). Tante Hella ist die, die hinten sitzt (vermute ich).
+
+Heimo Adelsberger
+ 
+Das meint der ChatGPT dazu:
+
+Sehr spannendes Foto! Ich versuche es mal Schritt für S" class="tooltip">Motorrad2.png</a>    <span class="badge">650.7 KB</span>  </div>  <div class="actions"><a class="primary" href="Unterlagen/Motorrad2.png" target="_blank" rel="noopener">Ansehen</a>  <a href="Unterlagen/Motorrad2.png" download>Download</a></div></div><div class="details"><details><summary>Beschreibung einblenden</summary><div style="white-space:pre-wrap;margin-top:8px;color:var(--muted)">Helene (Hella) Döbrössy (*19.04.1889  +20.03.1971) war sehr unternehmungslustig. Hier mit einer Freundin unterwegs (vermutlich nach Italien). Tante Hella ist die, die hinten sitzt (vermute ich).
+
+Heimo Adelsberger
+ 
+Das meint der ChatGPT dazu:
+
+Sehr spannendes Foto! Ich versuche es mal Schritt für Schritt einzuordnen:
+
+🏍️ Motorrad-Modell
+
+Auf dem Tank ist &quot;DKW&quot; zu lesen → das war in den 1920er/30er Jahren der größte Motorradhersteller der Welt (aus Zschopau/Sachsen).
+
+Bauweise: Einzylinder-Zweitakter, großer Rundscheinwerfer, klassische Drahtspeichenräder.
+
+Vermutlich ein Modell aus der Reihe DKW E 200–250 oder DKW SB 200/250.
+
+Die E-Reihe wurde ab 1925 produziert,
+
+die SB-Reihe ab ca. 1934.
+
+Am Tanklogo und der typischen geraden Gabelaufnahme erkennt man → eher frühe 1930er Jahre, wahrscheinlich DKW SB 200 (ca. 1934–1938).
+
+📆 Zeitpunkt der Aufnahme
+
+Kleidung (lange Mäntel, Lederstiefel, Hauben) → typisch späte 1920er bis 1930er Jahre.
+
+Motorradmodell passt ebenfalls in die frühen/mittleren 1930er.
+
+Das Kennzeichen „H II 533“ entspricht alten österreichischen bzw. deutschen Kennzeichenschemata, die vor dem 2. Weltkrieg verwendet wurden.
+
+📍 Möglicher Ort
+
+Im Hintergrund sieht man felsiges Hochgebirge und ein Tier (möglicherweise eine Gams oder Ziege) → deutet auf Alpenregion.
+
+Typische Route für Motorradfahrer aus Wien in den 1930ern: über den Semmering / Wechsel / Pyhrn in die Alpen oder über den Großglockner-Hochalpenstraße (eröffnet 1935) auf dem Weg nach Italien.
+
+Sehr gut möglich, dass das Foto auf der Großglocknerstraße aufgenommen wurde → das war damals ein beliebtes Ziel.
+
+👩‍🦳 Zu den Personen
+
+Du erwähnst, dass die Frau hinten 1889 geboren wurde → damit wäre sie auf diesem Foto (um 1935) ca. Mitte 40.
+
+Das passt gut ins Bild: Frauen in dieser Altersklasse, unterwegs mit Motorradkleidung, sind für die Zeit eher ungewöhnlich → deutet auf eine wohlhabendere, moderne Familie.
+
+✅ Zusammenfassung:
+Das Motorrad ist fast sicher eine DKW SB 200 oder 250 (Baujahre ca. 1934–1938).
+Das Foto dürfte um Mitte der 1930er Jahre entstanden sein.
+Der Aufnahmeort könnte gut die Großglockner-Hochalpenstraße oder eine andere Alpenstraße auf dem Weg von Wien nach Italien sein.</div></details></div><div class="group card">  <div class="name"><a href="Unterlagen/MotorradTanteHella.png" download title="Helene (Hella) Döbrössy (*19.04.1889  +20.03.1971) war sehr unternehmungslustig. Hier mit einer Freundin unterwegs (vermutlich nach Italien). Tante Hella ist die, die hinten sitzt (vermute ich).
+
+Heimo Adelsberger
+
+Das meint der ChatGPT dazu:
+
+🏍️ Motorrad
+
+Wieder eindeutig ein DKW mit großem Tanklog" class="tooltip">MotorradTanteHella.png</a>    <span class="badge">625.6 KB</span>  </div>  <div class="actions"><a class="primary" href="Unterlagen/MotorradTanteHella.png" target="_blank" rel="noopener">Ansehen</a>  <a href="Unterlagen/MotorradTanteHella.png" download>Download</a></div></div><div class="details"><details><summary>Beschreibung einblenden</summary><div style="white-space:pre-wrap;margin-top:8px;color:var(--muted)">Helene (Hella) Döbrössy (*19.04.1889  +20.03.1971) war sehr unternehmungslustig. Hier mit einer Freundin unterwegs (vermutlich nach Italien). Tante Hella ist die, die hinten sitzt (vermute ich).
+
+Heimo Adelsberger
+
+Das meint der ChatGPT dazu:
+
+🏍️ Motorrad
+
+Wieder eindeutig ein DKW mit großem Tanklogo.
+
+Typische Merkmale (Tankform mit verchromten Seitenfeldern, Schutzbleche, Auspuff links, große runde Scheinwerferlampe) deuten noch stärker auf die DKW SB 200 (gebaut 1934–1938).
+
+Die Kennnummer „H II 533“ ist identisch zum ersten Foto – also dieselbe Maschine, vermutlich eine Familienanschaffung.
+
+👨‍👩‍👧‍👧 Personen
+
+Jetzt sind vier Personen zu sehen: ein Mann im Anzug, zwei Frauen in Motorradkleidung, eine Frau in heller Bluse.
+
+Der Mann trägt Anzug + Krawatte → wirkt wie ein Begleiter (evtl. Ehemann oder Bruder), der nicht mitgefahren ist, sondern sich fürs Foto dazu gestellt hat.
+
+Die beiden Frauen mit Motorradkleidung sind dieselben wie auf dem ersten Bild → sie waren die Fahrerinnen.
+
+Das Alter der Frauen wirkt tatsächlich auf Mitte 40 (wenn eine 1889 geboren wurde, passt das genau ins Jahr ca. 1934–36).
+
+🏔️ Ort
+
+Deutlich erkennbar: Holzhaus/Hütte, steiles Gebirge im Hintergrund, vermutlich Alpenhochstraße.
+
+Typisch für Fotos dieser Zeit ist ein Halt an Schutzhütten oder Gasthäusern an der Großglockner-Hochalpenstraße (eröffnet 1935).
+
+Passt sehr gut zu deiner Vermutung: Fahrt aus Wien Richtung Italien, Vorkriegszeit.
+
+📆 Zeitliche Einordnung
+
+Mode: Kurze Jacken, Motorradhelme/Kappen, Mäntel → typisch frühe bis mittlere 1930er Jahre.
+
+Motorradmodell: DKW SB 200 (1934–38).
+
+Damit lässt sich die Aufnahme relativ genau auf 1935 ±2 Jahre datieren.
+
+✅ Zusammenfassung
+
+Motorrad: DKW SB 200 (200 ccm Zweitakter, Baujahre 1934–38).
+
+Zeit: ca. 1935.
+
+Ort: sehr wahrscheinlich Großglockner-Hochalpenstraße oder eine ähnliche Alpenstraße.
+
+Personen: Vierköpfige Gruppe, zwei Frauen aktiv Motorradfahrerinnen, eine davon vermutlich deine 1889 geborene Verwandte (ca. 46 Jahre alt).</div></details></div><div class="group card">  <div class="name"><a href="Unterlagen/PolanskyAhnentafel.png" download title="Hier ein Beispiel, wie sorgfältig meine Mutter (Helli Adelsberger *1917) gearbeitet hat um den Stammbaum aufzubauen." class="tooltip">PolanskyAhnentafel.png</a>    <span class="badge">6.2 MB</span>  </div>  <div class="actions"><a class="primary" href="Unterlagen/PolanskyAhnentafel.png" target="_blank" rel="noopener">Ansehen</a>  <a href="Unterlagen/PolanskyAhnentafel.png" download>Download</a></div></div><div class="details"><details><summary>Beschreibung einblenden</summary><div style="white-space:pre-wrap;margin-top:8px;color:var(--muted)">Hier ein Beispiel, wie sorgfältig meine Mutter (Helli Adelsberger *1917) gearbeitet hat um den Stammbaum aufzubauen.</div></details></div>
+  </div>
+  <footer>Stand: 2025-09-07 09:40</footer>
+</div>
 </body>
 </html>
