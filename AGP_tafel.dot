@@ -447,7 +447,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		g6p21
 	}
 	g6p21 -> g6p22 [constraint=true minlen=0 style=invis weight=2600]
-	g6p21 -> g6p22 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF13 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF13 shape=ellipse style=filled]
 	subgraph rank_hunF13 {
 		rank=same
@@ -468,7 +467,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		hun16
 	}
 	hun15 -> hun16 [constraint=true minlen=0 style=invis weight=2600]
-	hun15 -> hun16 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF14 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF14 shape=ellipse style=filled]
 	subgraph rank_hunF14 {
 		rank=same
@@ -489,7 +487,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		hun15
 	}
 	hun15 -> hun16 [constraint=true minlen=0 style=invis weight=2600]
-	hun15 -> hun16 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF4 shape=ellipse style=filled]
 	subgraph rank_hunF4 {
 		rank=same
@@ -510,7 +507,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		hun10
 	}
 	hun09 -> hun10 [constraint=true minlen=0 style=invis weight=2600]
-	hun09 -> hun10 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF5 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF5 shape=ellipse style=filled]
 	subgraph rank_hunF5 {
 		rank=same
@@ -531,7 +527,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		hun09
 	}
 	hun09 -> hun10 [constraint=true minlen=0 style=invis weight=2600]
-	hun09 -> hun10 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF6 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF6 shape=ellipse style=filled]
 	subgraph rank_hunF6 {
 		rank=same
@@ -552,7 +547,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		hun05
 	}
 	hun05 -> hun06 [constraint=true minlen=0 style=invis weight=2600]
-	hun05 -> hun06 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF10 [label="24.02.1811" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF10 shape=ellipse style=filled]
 	subgraph rank_hunF10 {
 		rank=same
@@ -573,7 +567,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		hun07
 	}
 	hun07 -> hun08 [constraint=true minlen=0 style=invis weight=2600]
-	hun07 -> hun08 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF2 [label="09.02.1820" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF2 shape=ellipse style=filled]
 	subgraph rank_hunF2 {
 		rank=same
@@ -594,7 +587,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		hun06
 	}
 	hun05 -> hun06 [constraint=true minlen=0 style=invis weight=2600]
-	hun05 -> hun06 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF1 [label="04.06.1848" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF1 shape=ellipse style=filled]
 	subgraph rank_hunF1 {
 		rank=same
@@ -619,8 +611,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 	}
 	att09 -> att10 [constraint=true minlen=0 style=invis weight=2600]
 	att10 -> att22 [constraint=true minlen=0 style=invis weight=2000]
-	att09 -> att10 [constraint=true minlen=0 style=invis weight=300]
-	att10 -> att22 [constraint=true minlen=0 style=invis weight=300]
 	M_hunF8 [label="09.02.1847" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hunF8 shape=ellipse style=filled]
 	subgraph rank_hunF8 {
 		rank=same
@@ -641,7 +631,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		att09
 	}
 	att09 -> att10 [constraint=true minlen=0 style=invis weight=2600]
-	att09 -> att10 [constraint=true minlen=0 style=invis weight=300]
 	M_attF4 [label="02.02.1888" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF4 shape=ellipse style=filled]
 	subgraph rank_attF4 {
 		rank=same
@@ -675,12 +664,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		att29
 	}
 	att28 -> att29 [constraint=true minlen=0 style=invis weight=2600]
-	att03 -> att04 [constraint=true minlen=0 style=invis weight=300]
-	att28 -> att29 [constraint=true minlen=0 style=invis weight=300]
-	att29 -> attS03 [constraint=true minlen=0 style=invis weight=300]
-	attS03 -> jam01 [constraint=true minlen=0 style=invis weight=300]
-	att04 -> att23 [constraint=true minlen=0 style=invis weight=300]
-	att23 -> att28 [constraint=true minlen=0 style=invis weight=300]
 	M_attF1 [label="04.10.1908" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF1 shape=ellipse style=filled]
 	subgraph rank_attF1 {
 		rank=same
@@ -730,15 +713,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		att05
 	}
 	att05 -> att06 [constraint=true minlen=0 style=invis weight=2600]
-	pol11 -> polS02 [constraint=true minlen=0 style=invis weight=300]
-	polS02 -> polS03 [constraint=true minlen=0 style=invis weight=300]
-	geh09 -> att38 [constraint=true minlen=0 style=invis weight=300]
-	att05 -> att06 [constraint=true minlen=0 style=invis weight=300]
-	pol08 -> pol09 [constraint=true minlen=0 style=invis weight=300]
-	pol09 -> pol10 [constraint=true minlen=0 style=invis weight=300]
-	pol10 -> pol11 [constraint=true minlen=0 style=invis weight=300]
-	polS03 -> geh09 [constraint=true minlen=0 style=invis weight=300]
-	att38 -> att05 [constraint=true minlen=0 style=invis weight=300]
 	M_attF2 [label="29.08.1942" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF2 shape=ellipse style=filled]
 	subgraph rank_attF2 {
 		rank=same
@@ -769,10 +743,6 @@ geb. Veronika" fillcolor="#fde7ef" id=P_ade30]
 		att14
 	}
 	att07 -> att14 [constraint=true minlen=0 style=invis weight=2600]
-	att36 -> g6p02 [constraint=true minlen=0 style=invis weight=300]
-	att07 -> att14 [constraint=true minlen=0 style=invis weight=300]
-	att14 -> att08 [constraint=true minlen=0 style=invis weight=300]
-	g6p02 -> att07 [constraint=true minlen=0 style=invis weight=300]
 	M_attF5 [label="18.05.1974
 gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 shape=ellipse style=filled]
 	subgraph rank_attF5 {
@@ -804,9 +774,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		g6p13
 	}
 	g6p13 -> att35 [constraint=true minlen=0 style=invis weight=2600]
-	att21 -> attS02 [constraint=true minlen=0 style=invis weight=300]
-	g6p13 -> att35 [constraint=true minlen=0 style=invis weight=300]
-	attS02 -> g6p13 [constraint=true minlen=0 style=invis weight=300]
 	M_attF3 [label="21.08.2020" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF3 shape=ellipse style=filled]
 	subgraph rank_attF3 {
 		rank=same
@@ -836,8 +803,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_attF6 -> att27
 	att25 -> att26 [constraint=true minlen=0 style=invis weight=1400]
 	att26 -> att27 [constraint=true minlen=0 style=invis weight=1400]
-	att25 -> att26 [constraint=true minlen=0 style=invis weight=300]
-	att26 -> att27 [constraint=true minlen=0 style=invis weight=300]
 	M_attF7 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF7 shape=ellipse style=filled]
 	subgraph rank_attF7 {
 		rank=same
@@ -877,9 +842,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		geh04
 	}
 	geh03 -> geh04 [constraint=true minlen=0 style=invis weight=2600]
-	geh01 -> geh02 [constraint=true minlen=0 style=invis weight=300]
-	geh03 -> geh04 [constraint=true minlen=0 style=invis weight=300]
-	geh02 -> geh03 [constraint=true minlen=0 style=invis weight=300]
 	M_gehF1 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_gehF1 shape=ellipse style=filled]
 	subgraph rank_gehF1 {
 		rank=same
@@ -910,10 +872,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		g4p06
 	}
 	g4p06 -> geh06 [constraint=true minlen=0 style=invis weight=2600]
-	geh05 -> g4p01 [constraint=true minlen=0 style=invis weight=300]
-	g4p01 -> g4p04 [constraint=true minlen=0 style=invis weight=300]
-	g4p06 -> geh06 [constraint=true minlen=0 style=invis weight=300]
-	g4p04 -> g4p06 [constraint=true minlen=0 style=invis weight=300]
 	M_gehF2 [label="09.09.1966" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_gehF2 shape=ellipse style=filled]
 	subgraph rank_gehF2 {
 		rank=same
@@ -944,10 +902,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		gehS01
 	}
 	geh08 -> gehS01 [constraint=true minlen=0 style=invis weight=2600]
-	geh07 -> g5p04 [constraint=true minlen=0 style=invis weight=300]
-	geh08 -> gehS01 [constraint=true minlen=0 style=invis weight=300]
-	gehS01 -> g5p07 [constraint=true minlen=0 style=invis weight=300]
-	g5p04 -> geh08 [constraint=true minlen=0 style=invis weight=300]
 	M_gehF4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_gehF4 shape=ellipse style=filled]
 	subgraph rank_gehF4 {
 		rank=same
@@ -981,7 +935,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_g4F1 -> g4p02
 	M_g4F1 -> g4p03
 	g4p02 -> g4p03 [constraint=true minlen=0 style=invis weight=1400]
-	g4p02 -> g4p03 [constraint=true minlen=0 style=invis weight=300]
 	M_g4F2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g4F2 shape=ellipse style=filled]
 	subgraph rank_g4F2 {
 		rank=same
@@ -1016,8 +969,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_g4F3 -> g4p09
 	g4p07 -> g4p08 [constraint=true minlen=0 style=invis weight=1400]
 	g4p08 -> g4p09 [constraint=true minlen=0 style=invis weight=1400]
-	g4p07 -> g4p08 [constraint=true minlen=0 style=invis weight=300]
-	g4p08 -> g4p09 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF1 [label="30.08.1871" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF1 shape=ellipse style=filled]
 	subgraph rank_czaF1 {
 		rank=same
@@ -1067,15 +1018,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	}
 	pol01 -> polS01 [constraint=true minlen=0 style=invis weight=2600]
 	polS01 -> pol07 [constraint=true minlen=0 style=invis weight=2000]
-	att03 -> att04 [constraint=true minlen=0 style=invis weight=300]
-	pol01 -> polS01 [constraint=true minlen=0 style=invis weight=300]
-	pol03 -> pol04 [constraint=true minlen=0 style=invis weight=300]
-	pol04 -> pol05 [constraint=true minlen=0 style=invis weight=300]
-	pol05 -> pol06 [constraint=true minlen=0 style=invis weight=300]
-	pol06 -> att03 [constraint=true minlen=0 style=invis weight=300]
-	att04 -> pol01 [constraint=true minlen=0 style=invis weight=300]
-	polS01 -> pol07 [constraint=true minlen=0 style=invis weight=300]
-	pol07 -> pol02 [constraint=true minlen=0 style=invis weight=300]
 	M_polF1 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF1 shape=ellipse style=filled]
 	subgraph rank_polF1 {
 		rank=same
@@ -1106,9 +1048,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		hoc01
 	}
 	hoc01 -> pol13 [constraint=true minlen=0 style=invis weight=2600]
-	vlc01 -> pol12 [constraint=true minlen=0 style=invis weight=300]
-	hoc01 -> pol13 [constraint=true minlen=0 style=invis weight=300]
-	pol12 -> hoc01 [constraint=true minlen=0 style=invis weight=300]
 	M_polF2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF2 shape=ellipse style=filled]
 	subgraph rank_polF2 {
 		rank=same
@@ -1129,7 +1068,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		ped01
 	}
 	ped01 -> pol14 [constraint=true minlen=0 style=invis weight=2600]
-	ped01 -> pol14 [constraint=true minlen=0 style=invis weight=300]
 	M_polF3 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF3 shape=ellipse style=filled]
 	subgraph rank_polF3 {
 		rank=same
@@ -1180,15 +1118,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		polS08
 	}
 	polS08 -> pol18 [constraint=true minlen=0 style=invis weight=2600]
-	pol15 -> polS04 [constraint=true minlen=0 style=invis weight=300]
-	polS04 -> polS05 [constraint=true minlen=0 style=invis weight=300]
-	polS06 -> pol16 [constraint=true minlen=0 style=invis weight=300]
-	polS07 -> pol17 [constraint=true minlen=0 style=invis weight=300]
-	polS08 -> polS09 [constraint=true minlen=0 style=invis weight=300]
-	polS09 -> pol18 [constraint=true minlen=0 style=invis weight=300]
-	polS05 -> polS06 [constraint=true minlen=0 style=invis weight=300]
-	pol16 -> polS07 [constraint=true minlen=0 style=invis weight=300]
-	pol17 -> polS08 [constraint=true minlen=0 style=invis weight=300]
 	M_polF4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF4 shape=ellipse style=filled]
 	subgraph rank_polF4 {
 		rank=same
@@ -1209,7 +1138,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		g2p07
 	}
 	pol19 -> g2p07 [constraint=true minlen=0 style=invis weight=2600]
-	pol19 -> g2p07 [constraint=true minlen=0 style=invis weight=300]
 	M_polF5 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF5 shape=ellipse style=filled]
 	subgraph rank_polF5 {
 		rank=same
@@ -1240,9 +1168,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		g2p14
 	}
 	pol21 -> g2p14 [constraint=true minlen=0 style=invis weight=2600]
-	g2p10 -> pol20 [constraint=true minlen=0 style=invis weight=300]
-	pol21 -> g2p14 [constraint=true minlen=0 style=invis weight=300]
-	pol20 -> pol21 [constraint=true minlen=0 style=invis weight=300]
 	M_polF6 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF6 shape=ellipse style=filled]
 	subgraph rank_polF6 {
 		rank=same
@@ -1263,7 +1188,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		g3p04
 	}
 	pol22 -> g3p04 [constraint=true minlen=0 style=invis weight=2600]
-	pol22 -> g3p04 [constraint=true minlen=0 style=invis weight=300]
 	M_polF7 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF7 shape=ellipse style=filled]
 	subgraph rank_polF7 {
 		rank=same
@@ -1281,7 +1205,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_polF7 -> pol23
 	M_polF7 -> pol24
 	pol23 -> pol24 [constraint=true minlen=0 style=invis weight=1400]
-	pol23 -> pol24 [constraint=true minlen=0 style=invis weight=300]
 	M_polF8 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_polF8 shape=ellipse style=filled]
 	subgraph rank_polF8 {
 		rank=same
@@ -1339,7 +1262,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		vlc03
 	}
 	vlc02 -> vlc03 [constraint=true minlen=0 style=invis weight=2600]
-	vlc02 -> vlc03 [constraint=true minlen=0 style=invis weight=300]
 	M_vlcF2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_vlcF2 shape=ellipse style=filled]
 	subgraph rank_vlcF2 {
 		rank=same
@@ -1374,7 +1296,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		hocS01
 	}
 	hoc02 -> hocS01 [constraint=true minlen=0 style=invis weight=2600]
-	hoc02 -> hocS01 [constraint=true minlen=0 style=invis weight=300]
 	M_hocF2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_hocF2 shape=ellipse style=filled]
 	subgraph rank_hocF2 {
 		rank=same
@@ -1420,7 +1341,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_g2F3 -> g2p08
 	M_g2F3 -> g2p09
 	g2p08 -> g2p09 [constraint=true minlen=0 style=invis weight=1400]
-	g2p08 -> g2p09 [constraint=true minlen=0 style=invis weight=300]
 	M_g2F4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g2F4 shape=ellipse style=filled]
 	subgraph rank_g2F4 {
 		rank=same
@@ -1441,8 +1361,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_g2F4 -> g2p13
 	g2p11 -> g2p12 [constraint=true minlen=0 style=invis weight=1400]
 	g2p12 -> g2p13 [constraint=true minlen=0 style=invis weight=1400]
-	g2p11 -> g2p12 [constraint=true minlen=0 style=invis weight=300]
-	g2p12 -> g2p13 [constraint=true minlen=0 style=invis weight=300]
 	M_g2F5 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g2F5 shape=ellipse style=filled]
 	subgraph rank_g2F5 {
 		rank=same
@@ -1460,7 +1378,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_g2F5 -> g2p15
 	M_g2F5 -> g2p16
 	g2p15 -> g2p16 [constraint=true minlen=0 style=invis weight=1400]
-	g2p15 -> g2p16 [constraint=true minlen=0 style=invis weight=300]
 	M_g3F2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g3F2 shape=ellipse style=filled]
 	subgraph rank_g3F2 {
 		rank=same
@@ -1484,9 +1401,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	g3p05 -> g3p06 [constraint=true minlen=0 style=invis weight=1400]
 	g3p06 -> g3p07 [constraint=true minlen=0 style=invis weight=1400]
 	g3p07 -> g3p08 [constraint=true minlen=0 style=invis weight=1400]
-	g3p05 -> g3p06 [constraint=true minlen=0 style=invis weight=300]
-	g3p06 -> g3p07 [constraint=true minlen=0 style=invis weight=300]
-	g3p07 -> g3p08 [constraint=true minlen=0 style=invis weight=300]
 	M_g5F2 [label="28.06.2016" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g5F2 shape=ellipse style=filled]
 	subgraph rank_g5F2 {
 		rank=same
@@ -1516,8 +1430,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_g5F4 -> g5p10
 	g5p08 -> g5p09 [constraint=true minlen=0 style=invis weight=1400]
 	g5p09 -> g5p10 [constraint=true minlen=0 style=invis weight=1400]
-	g5p08 -> g5p09 [constraint=true minlen=0 style=invis weight=300]
-	g5p09 -> g5p10 [constraint=true minlen=0 style=invis weight=300]
 	M_g6F1 [label="29.08.1969" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g6F1 shape=ellipse style=filled]
 	subgraph rank_g6F1 {
 		rank=same
@@ -1544,9 +1456,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		g6p09
 	}
 	g6p09 -> att34 [constraint=true minlen=0 style=invis weight=2600]
-	g6p09 -> att34 [constraint=true minlen=0 style=invis weight=300]
-	att32 -> att33 [constraint=true minlen=0 style=invis weight=300]
-	att33 -> g6p09 [constraint=true minlen=0 style=invis weight=300]
 	M_g6F2 [label="27.06.2015" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_g6F2 shape=ellipse style=filled]
 	subgraph rank_g6F2 {
 		rank=same
@@ -1590,7 +1499,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		hun08
 	}
 	hun07 -> hun08 [constraint=true minlen=0 style=invis weight=2600]
-	hun07 -> hun08 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF11 [label="21.11.1838" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF11 shape=ellipse style=filled]
 	subgraph rank_czaF11 {
 		rank=same
@@ -1621,9 +1529,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza04
 	}
 	cza03 -> cza04 [constraint=true minlen=0 style=invis weight=2600]
-	cza35 -> cza36 [constraint=true minlen=0 style=invis weight=300]
-	cza03 -> cza04 [constraint=true minlen=0 style=invis weight=300]
-	cza36 -> cza03 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF5 [label="28.01.1799" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF5 shape=ellipse style=filled]
 	subgraph rank_czaF5 {
 		rank=same
@@ -1644,7 +1549,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza06
 	}
 	cza05 -> cza06 [constraint=true minlen=0 style=invis weight=2600]
-	cza05 -> cza06 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF7 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF7 shape=ellipse style=filled]
 	subgraph rank_czaF7 {
 		rank=same
@@ -1665,7 +1569,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza10
 	}
 	cza09 -> cza10 [constraint=true minlen=0 style=invis weight=2600]
-	cza09 -> cza10 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF8 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF8 shape=ellipse style=filled]
 	subgraph rank_czaF8 {
 		rank=same
@@ -1686,7 +1589,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza09
 	}
 	cza09 -> cza10 [constraint=true minlen=0 style=invis weight=2600]
-	cza09 -> cza10 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF6 [label="09.02.1813" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF6 shape=ellipse style=filled]
 	subgraph rank_czaF6 {
 		rank=same
@@ -1707,7 +1609,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza05
 	}
 	cza05 -> cza06 [constraint=true minlen=0 style=invis weight=2600]
-	cza05 -> cza06 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF10 [label="21.10.1788" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF10 shape=ellipse style=filled]
 	subgraph rank_czaF10 {
 		rank=same
@@ -1728,7 +1629,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza11
 	}
 	cza11 -> cza12 [constraint=true minlen=0 style=invis weight=2600]
-	cza11 -> cza12 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF9 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF9 shape=ellipse style=filled]
 	subgraph rank_czaF9 {
 		rank=same
@@ -1749,7 +1649,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza12
 	}
 	cza11 -> cza12 [constraint=true minlen=0 style=invis weight=2600]
-	cza11 -> cza12 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF2 [label="15.02.1841" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF2 shape=ellipse style=filled]
 	subgraph rank_czaF2 {
 		rank=same
@@ -1770,7 +1669,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza03
 	}
 	cza03 -> cza04 [constraint=true minlen=0 style=invis weight=2600]
-	cza03 -> cza04 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF3 [label="11.11.1806" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF3 shape=ellipse style=filled]
 	subgraph rank_czaF3 {
 		rank=same
@@ -1791,7 +1689,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza08
 	}
 	cza07 -> cza08 [constraint=true minlen=0 style=invis weight=2600]
-	cza07 -> cza08 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF12 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF12 shape=ellipse style=filled]
 	subgraph rank_czaF12 {
 		rank=same
@@ -1812,7 +1709,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza14
 	}
 	cza13 -> cza14 [constraint=true minlen=0 style=invis weight=2600]
-	cza13 -> cza14 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF13 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF13 shape=ellipse style=filled]
 	subgraph rank_czaF13 {
 		rank=same
@@ -1833,7 +1729,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza13
 	}
 	cza13 -> cza14 [constraint=true minlen=0 style=invis weight=2600]
-	cza13 -> cza14 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF14 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF14 shape=ellipse style=filled]
 	subgraph rank_czaF14 {
 		rank=same
@@ -1854,7 +1749,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza16
 	}
 	cza15 -> cza16 [constraint=true minlen=0 style=invis weight=2600]
-	cza15 -> cza16 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF15 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF15 shape=ellipse style=filled]
 	subgraph rank_czaF15 {
 		rank=same
@@ -1875,7 +1769,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza15
 	}
 	cza15 -> cza16 [constraint=true minlen=0 style=invis weight=2600]
-	cza15 -> cza16 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF16 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF16 shape=ellipse style=filled]
 	cza33 -> M_czaF16 [dir=none minlen=1 weight=60]
 	subgraph kids_czaF16 {
@@ -1889,7 +1782,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza30
 	}
 	cza29 -> cza30 [constraint=true minlen=0 style=invis weight=2600]
-	cza29 -> cza30 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF17 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF17 shape=ellipse style=filled]
 	cza34 -> M_czaF17 [dir=none minlen=1 weight=60]
 	subgraph kids_czaF17 {
@@ -1903,7 +1795,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza32
 	}
 	cza31 -> cza32 [constraint=true minlen=0 style=invis weight=2600]
-	cza31 -> cza32 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF18 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF18 shape=ellipse style=filled]
 	subgraph rank_czaF18 {
 		rank=same
@@ -1939,13 +1830,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	cza41 -> cza42 [constraint=true minlen=0 style=invis weight=1400]
 	cza42 -> cza43 [constraint=true minlen=0 style=invis weight=1400]
 	cza43 -> cza44 [constraint=true minlen=0 style=invis weight=1400]
-	cza39 -> cza37 [constraint=true minlen=0 style=invis weight=300]
-	cza37 -> cza38 [constraint=true minlen=0 style=invis weight=300]
-	cza38 -> cza40 [constraint=true minlen=0 style=invis weight=300]
-	cza40 -> cza41 [constraint=true minlen=0 style=invis weight=300]
-	cza41 -> cza42 [constraint=true minlen=0 style=invis weight=300]
-	cza42 -> cza43 [constraint=true minlen=0 style=invis weight=300]
-	cza43 -> cza44 [constraint=true minlen=0 style=invis weight=300]
 	M_czaF4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_czaF4 shape=ellipse style=filled]
 	subgraph rank_czaF4 {
 		rank=same
@@ -1966,7 +1850,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		cza07
 	}
 	cza07 -> cza08 [constraint=true minlen=0 style=invis weight=2600]
-	cza07 -> cza08 [constraint=true minlen=0 style=invis weight=300]
 	M_attF11 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF11 shape=ellipse style=filled]
 	subgraph rank_attF11 {
 		rank=same
@@ -1991,8 +1874,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	}
 	att24 -> att31 [constraint=true minlen=0 style=invis weight=2600]
 	att31 -> att30 [constraint=true minlen=0 style=invis weight=2000]
-	att24 -> att31 [constraint=true minlen=0 style=invis weight=300]
-	att31 -> att30 [constraint=true minlen=0 style=invis weight=300]
 	M_jamF1 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_jamF1 shape=ellipse style=filled]
 	subgraph rank_jamF1 {
 		rank=same
@@ -2013,7 +1894,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		gah01
 	}
 	jam02 -> gah01 [constraint=true minlen=0 style=invis weight=2600]
-	jam02 -> gah01 [constraint=true minlen=0 style=invis weight=300]
 	M_jamF2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_jamF2 shape=ellipse style=filled]
 	subgraph rank_jamF2 {
 		rank=same
@@ -2040,7 +1920,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 	M_attF13 -> att43
 	M_attF13 -> att44
 	att43 -> att44 [constraint=true minlen=0 style=invis weight=1400]
-	att43 -> att44 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF7 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF7 shape=ellipse style=filled]
 	subgraph rank_adeF7 {
 		rank=same
@@ -2061,7 +1940,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		ade02
 	}
 	ade01 -> ade02 [constraint=true minlen=0 style=invis weight=2600]
-	ade01 -> ade02 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF8 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF8 shape=ellipse style=filled]
 	subgraph rank_adeF8 {
 		rank=same
@@ -2082,7 +1960,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		ade01
 	}
 	ade01 -> ade02 [constraint=true minlen=0 style=invis weight=2600]
-	ade01 -> ade02 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF9 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF9 shape=ellipse style=filled]
 	subgraph rank_adeF9 {
 		rank=same
@@ -2103,7 +1980,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		ade03
 	}
 	ade03 -> ade04 [constraint=true minlen=0 style=invis weight=2600]
-	ade03 -> ade04 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF10 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF10 shape=ellipse style=filled]
 	subgraph rank_adeF10 {
 		rank=same
@@ -2124,7 +2000,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		ade28
 	}
 	ade27 -> ade28 [constraint=true minlen=0 style=invis weight=2600]
-	ade27 -> ade28 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF11 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF11 shape=ellipse style=filled]
 	subgraph rank_adeF11 {
 		rank=same
@@ -2145,7 +2020,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		ade27
 	}
 	ade27 -> ade28 [constraint=true minlen=0 style=invis weight=2600]
-	ade27 -> ade28 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF1 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF1 shape=ellipse style=filled]
 	subgraph rank_adeF1 {
 		rank=same
@@ -2166,7 +2040,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		ade04
 	}
 	ade03 -> ade04 [constraint=true minlen=0 style=invis weight=2600]
-	ade03 -> ade04 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF2 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF2 shape=ellipse style=filled]
 	subgraph rank_adeF2 {
 		rank=same
@@ -2217,13 +2090,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		ade15
 	}
 	ade15 -> ade14 [constraint=true minlen=0 style=invis weight=2600]
-	ade16 -> ade09 [constraint=true minlen=0 style=invis weight=300]
-	ade07 -> ade08 [constraint=true minlen=0 style=invis weight=300]
-	ade13 -> ade12 [constraint=true minlen=0 style=invis weight=300]
-	ade15 -> ade14 [constraint=true minlen=0 style=invis weight=300]
-	ade09 -> ade07 [constraint=true minlen=0 style=invis weight=300]
-	ade08 -> ade13 [constraint=true minlen=0 style=invis weight=300]
-	ade12 -> ade15 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF3 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF3 shape=ellipse style=filled]
 	subgraph rank_adeF3 {
 		rank=same
@@ -2260,11 +2126,6 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		att06
 	}
 	att05 -> att06 [constraint=true minlen=0 style=invis weight=2600]
-	rok01 -> att45 [constraint=true minlen=0 style=invis weight=300]
-	att05 -> att06 [constraint=true minlen=0 style=invis weight=300]
-	ade10 -> ade11 [constraint=true minlen=0 style=invis weight=300]
-	ade11 -> rok01 [constraint=true minlen=0 style=invis weight=300]
-	att45 -> att05 [constraint=true minlen=0 style=invis weight=300]
 	M_adeF4 [label=oo color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_adeF4 shape=ellipse style=filled]
 	subgraph rank_adeF4 {
 		rank=same
@@ -2312,5 +2173,4 @@ gesch. 17.05.1993" color="#b08900" fillcolor="#fff3b0" fontsize=9 id=M_attF5 sha
 		pol11
 	}
 	pol11 -> polS03 [constraint=true minlen=0 style=invis weight=2600]
-	pol11 -> polS03 [constraint=true minlen=0 style=invis weight=300]
 }
